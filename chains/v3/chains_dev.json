@@ -3149,7 +3149,7 @@
                 "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-nodle"
             }
         },
-        "color": "linear-gradient(315.17deg, #50AA85 8%, #57C799 75%, #D43079 75.01%)",
+        "color": "linear-gradient(315.17deg, #50AA85 0%, #57C799 100%)",
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Nodle.svg",
         "addressPrefix": 37
     },
