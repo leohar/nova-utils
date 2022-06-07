@@ -45,16 +45,6 @@
         "account": "0xee98c02253479726b456f3f7c5a9014d0198f53717de881c15f85becd706313c"
     },
     {
-        "chainId": "4d812836a05a7ea37767325acadff956ce472474dd44dd2e7f15d16fbfc68cdb",
-        "name": "Altair",
-        "account": "0x6d6f646c70792f74727372790000000000000000000000000000000000000000"
-    },
-    {
-        "chainId": "9d3ea49f13d993d093f209c42f97a6b723b84d3b9aa8461be9bb19ee13e7b4fd",
-        "name": "Parallel Heiko",
-        "account": "0x0c2017a4f115c013d899b494c955a7ec4cc9786a3997f1823baacc213896a35a"
-    },
-    {
         "chainId": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
         "name": "Edgeware",
         "account": "0x6d6f646c70792f74727372790000000000000000000000000000000000000000"
@@ -145,11 +135,6 @@
         "account": "0xfcacdc1b0849908f55623b4249ab6c63823122703c6fa9e223e15c0b0fffd371"
     },
     {
-        "chainId": "a3d114c2b8d0627c1aa9b134eafcf7d05ca561fdc19fb388bb9457f81809fb23",
-        "name": "Nodle Solochain",
-        "account": "0xf233477e8d4e36baafb87987c74ae24e36cf33eb54485998e012e17acc421808"
-    },
-    {
         "chainId": "67f9723393ef76214df0118c34bbbd3dbebc8ed46a10973a8c969d48fe7598c9",
         "name": "Westmint",
         "account": "0x340a806419d5e278172e45cb0e50da1b031795366c99ddfe0a680bd53b142c63"
@@ -158,11 +143,6 @@
         "chainId": "91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
         "name": "Moonbase Alpha",
         "account": "0xecfd4b7d4e25c55439d8e111812d47ee3e029909"
-    },
-    {
-        "chainId": "f25c85c4ffc4863b599a443e5301f7f4120c9a21042d35942b9e844346060db1",
-        "name": "KILT Peregrine",
-        "account": "0xde0e5233c3471ca5faa5b90d1ac78cc42fbe9ac64151805f994c659fbda0d302"
     },
     {
         "chainId": "5c562e6300954998233c9a40b6b86f3028977e6d32d0da1af207738d19f98c1b",
@@ -190,11 +170,6 @@
         "account": "0xa63ad692b7f487b32c9c88ebd3a486e4ccf4aa258093d7c690925c5f62dedf4d"
     },
     {
-        "chainId": "724c168d8e86b78b831c641e2cc822b8d1bf99fa0b4b28fe59985cd6fd580215",
-        "name": "Integritee Parachain",
-        "account": "0x03bd97c3a34229dbdd4fc3b3a8c0647e9369c5c44555f252f2307d5efe7f4abd"
-    },
-    {
         "chainId": "335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
         "name": "Efinity",
         "account": "0x08419d5c2ba357795bf9bd8b3c973d741518fa35c741832db5b5e3ad33a00523"
@@ -218,5 +193,60 @@
         "chainId": "0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
         "name": "Turing",
         "account": "0x488ced7d199b4386081a52505962128da5a3f54f4665db3d78b6e9f9e89eea4d"
+    },
+    {
+        "chainId": "cdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
+        "name": "Integritee Parachain",
+        "account": "0x3bc8c46a10be7593e5e94267d62ef70d6bb28b73e1d1049339112e779a5a01ed"
+    },
+    {
+        "chainId": "70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
+        "name": "Aleph Zero",
+        "account": "0xa8669978e6f75c3e52c1a89f810693ee9a64ff886a99b333e5c07ef990b05ca3"
+    },
+    {
+        "chainId": "daab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
+        "name": "Composable Finance",
+        "account": "0x407648a7a9cdd55870785b8d3efb884618a9a6144cf15e3c45a493362675dc0f"
+    },
+    {
+        "chainId": "3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
+        "name": "Polkadex Solochain",
+        "account": "0xfa5d4dae5bd8de8f480a59c41a2c1a373be2a311ee84e01c6645b90716055c10"
+    },
+    {
+        "chainId": "64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
+        "name": "Parallel Heiko",
+        "account": "0x0c2017a4f115c013d899b494c955a7ec4cc9786a3997f1823baacc213896a35a"
+    },
+    {
+        "chainId": "aa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
+        "name": "Altair",
+        "account": "0x6d6f646c70792f74727372790000000000000000000000000000000000000000"
+    },
+    {
+        "chainId": "a0c6e3bac382b316a68bca7141af1fba507207594c761076847ce358aeedcc21",
+        "name": "KILT Peregrine",
+        "account": "0xde0e5233c3471ca5faa5b90d1ac78cc42fbe9ac64151805f994c659fbda0d302"
+    },
+    {
+        "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+        "name": "Bifrost Polkadot",
+        "account": "0x2c64a40ec236d0a0823065791946f6254c4577c6110f512614bd6ece1a3fa22b"
+    },
+    {
+        "chainId": "2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
+        "name": "Litentry",
+        "account": "0x94575c5627d7661400a3eccacf5440b5f877fa6099f4797a321523e3ade7215d"
+    },
+    {
+        "chainId": "84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
+        "name": "UNIQUE",
+        "account": "0x0ea4c0330527235090286f906763f5dce6ee76cb8d91916185e0e071dce7356d"
+    },
+    {
+        "chainId": "577d331ca43646f547cdaa07ad0aa387a383a93416764480665103081f3eaf14",
+        "name": "Dora Factory",
+        "account": "0x1c78db691342ffdd4d23a3b3a13e55e4939fbc01c2021d87c98139c5a1ff9a4c"
     }
 ]
