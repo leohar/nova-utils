@@ -248,5 +248,20 @@
         "chainId": "577d331ca43646f547cdaa07ad0aa387a383a93416764480665103081f3eaf14",
         "name": "Dora Factory",
         "account": "0x1c78db691342ffdd4d23a3b3a13e55e4939fbc01c2021d87c98139c5a1ff9a4c"
+    },
+    {
+        "chainId": "e7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
+        "name": "OriginTrail Parachain",
+        "account": "0x7cd910cfb223f0b17c8672c7495cad1778f19fb8b6508f8ee09220b2d818261b"
+    },
+    {
+        "chainId": "d611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
+        "name": "Mangata X",
+        "account": "0xc4703d1bd88011008268711b545dbf921d13c38e10c5810bd975ae0002c17652"
+    },
+    {
+        "chainId": "05d5279c52c484cc80396535a316add7d47b1c5b9e0398dd1f584149341460c5",
+        "name": "Aleph Zero Testnet",
+        "account": "0x987b17d76fabe1627b983933ed2b10783e60d3990a01c8af30fd002f020a6929"
     }
 ]
