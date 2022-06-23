@@ -962,16 +962,20 @@
         ],
         "nodes": [
             {
+                "url": "wss://moonriver.api.onfinality.io/ws?apikey=41935d3d-3d6c-4a90-a0e1-33c065401d05",
+                "name": "OnFinality node"
+            },
+            {
+                "url": "wss://moonriver.api.onfinality.io/public-ws",
+                "name": "OnFinality node"
+            },
+            {
                 "url": "wss://moonriver-rpc.dwellir.com",
                 "name": "Dwellir node"
             },
             {
                 "url": "wss://wss.moonriver.moonbeam.network",
                 "name": "PureStake node"
-            },
-            {
-                "url": "wss://moonriver.api.onfinality.io/public-ws",
-                "name": "OnFinality node"
             },
             {
                 "url": "wss://moonriver.public.blastapi.io",
@@ -1013,6 +1017,7 @@
     },
     {
         "chainId": "91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
+        "parentId": "e1ea3ab1d46ba8f4898b6b4b9c54ffc05282d299f89e84bd0fd08067758c9443",
         "name": "Moonbase Alpha",
         "assets": [
             {
@@ -1020,6 +1025,15 @@
                 "assetId": 0,
                 "symbol": "DEV",
                 "precision": 18
+            },
+            {
+                "assetId": 1,
+                "symbol": "xcUNIT",
+                "precision": 12,
+                "type": "statemine",
+                "typeExtras": {
+                    "assetId": "42259045809535163221576417993425387648"
+                }
             }
         ],
         "nodes": [
@@ -1284,8 +1298,8 @@
         "explorers": [
             {
                 "name": "Subscan",
-                "extrinsic": "https://bifrost.subscan.io/extrinsic/{hash}",
-                "account": "https://bifrost.subscan.io/account/{address}",
+                "extrinsic": "https://bifrost-kusama.subscan.io/extrinsic/{hash}",
+                "account": "https://bifrost-kusama.subscan.io/account/{address}",
                 "event": null
             },
             {
@@ -1443,8 +1457,8 @@
         ],
         "nodes": [
             {
-                "url": "wss://rpc.subsocial.network",
-                "name": "DappForce"
+                "url": "wss://arch.subsocial.network",
+                "name": "Arch node"
             }
         ],
         "explorers": [
@@ -1988,6 +2002,7 @@
                 "assetId": 1,
                 "symbol": "LDOT",
                 "precision": 10,
+                "priceId": "liquid-staking-dot",
                 "type": "orml",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/LDOT.svg",
                 "typeExtras": {
@@ -2029,6 +2044,7 @@
                 "assetId": 4,
                 "symbol": "lcDOT",
                 "precision": 10,
+                "priceId": "liquid-crowdloan-dot",
                 "type": "orml",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/lcDOT.svg",
                 "typeExtras": {
@@ -2147,16 +2163,16 @@
         ],
         "nodes": [
             {
-                "url": "wss://rpc.pinknode.io/mandala/explorer",
-                "name": "Pinknode node"
-            },
-            {
                 "url": "wss://acala-mandala.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
             },
             {
                 "url": "wss://mandala.polkawallet.io",
                 "name": "Polkawallet"
+            },
+            {
+                "url": "wss://rpc.pinknode.io/mandala/explorer",
+                "name": "Pinknode node"
             }
         ],
         "options": [
@@ -2223,12 +2239,16 @@
         ],
         "nodes": [
             {
-                "url": "wss://moonbeam-rpc.dwellir.com",
-                "name": "Dwellir node"
+                "url": "wss://moonbeam.api.onfinality.io/ws?apikey=41935d3d-3d6c-4a90-a0e1-33c065401d05",
+                "name": "OnFinality node"
             },
             {
                 "url": "wss://moonbeam.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
+            },
+            {
+                "url": "wss://moonbeam-rpc.dwellir.com",
+                "name": "Dwellir node"
             },
             {
                 "url": "wss://moonbeam.public.blastapi.io",
@@ -2393,6 +2413,7 @@
                 "assetId": 5,
                 "symbol": "LDOT",
                 "precision": 10,
+                "priceId": "liquid-staking-dot",
                 "type": "statemine",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/LDOT.svg",
                 "typeExtras": {
@@ -3801,6 +3822,95 @@
         },
         "color": "linear-gradient(315deg, #434852 0%, #787F92 100%)",
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Aleph_zero.svg",
+        "addressPrefix": 42
+    },
+    {
+        "chainId": "e1ea3ab1d46ba8f4898b6b4b9c54ffc05282d299f89e84bd0fd08067758c9443",
+        "name": "Moonbase Relay Testnet",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "UNIT",
+                "precision": 12
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://frag-moonbase-relay-rpc-ws.g.moonbase.moonbeam.network",
+                "name": "PureStake node"
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/moonbase_relay.json",
+            "overridesCommon": true
+        },
+        "color": "linear-gradient(315deg, #434852 0%, #787F92 100%)",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Moonriver.svg",
+        "addressPrefix": 42,
+        "options": [
+            "testnet"
+        ]
+    },
+    {
+        "chainId": "3c3183f6d701500766ff7d147b79c4f10014a095eaaa98e960dcef6b3ead50ee",
+        "name": "Polymesh Testnet",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "POLYX",
+                "precision": 6,
+                "priceId": "polymesh",
+                "staking": "relaychain"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://staging-rpc.polymesh.live",
+                "name": "Polymath node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://polymesh.subscan.io/extrinsic/{hash}",
+                "account": "https://polymesh.subscan.io/account/{address}",
+                "event": null
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polymesh.json",
+            "overridesCommon": true
+        },
+        "color": "linear-gradient(315deg, #434852 0%, #787F92 100%)",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polymesh.svg",
+        "addressPrefix": 42,
+        "options": [
+            "testnet"
+        ]
+    },
+    {
+        "chainId": "0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Pichiu",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "PCHU",
+                "precision": 18
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://kusama.kylin-node.co.uk",
+                "name": "Kylin node"
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/pichiu.json",
+            "overridesCommon": true
+        },
+        "color": "linear-gradient(315deg, #A91056 0%, #F34594 100%)",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Pichiu.svg",
         "addressPrefix": 42
     }
 ]

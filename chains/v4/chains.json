@@ -1277,8 +1277,8 @@
         "explorers": [
             {
                 "name": "Subscan",
-                "extrinsic": "https://bifrost.subscan.io/extrinsic/{hash}",
-                "account": "https://bifrost.subscan.io/account/{address}",
+                "extrinsic": "https://bifrost-kusama.subscan.io/extrinsic/{hash}",
+                "account": "https://bifrost-kusama.subscan.io/account/{address}",
                 "event": null
             },
             {
@@ -1811,6 +1811,7 @@
                 "assetId": 1,
                 "symbol": "LDOT",
                 "precision": 10,
+                "priceId": "liquid-staking-dot",
                 "type": "orml",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/LDOT.svg",
                 "typeExtras": {
@@ -1852,6 +1853,7 @@
                 "assetId": 4,
                 "symbol": "lcDOT",
                 "precision": 10,
+                "priceId": "liquid-crowdloan-dot",
                 "type": "orml",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/lcDOT.svg",
                 "typeExtras": {
@@ -2062,6 +2064,7 @@
                 "assetId": 5,
                 "symbol": "LDOT",
                 "precision": 10,
+                "priceId": "liquid-staking-dot",
                 "type": "statemine",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/LDOT.svg",
                 "typeExtras": {
@@ -2210,8 +2213,8 @@
         ],
         "nodes": [
             {
-                "url": "wss://rpc.subsocial.network",
-                "name": "DappForce"
+                "url": "wss://arch.subsocial.network",
+                "name": "Arch node"
             }
         ],
         "explorers": [
@@ -3501,6 +3504,31 @@
         },
         "color": "linear-gradient(315deg, #009F80 24.99%, #95E7D7 100%)",
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/MangataX.svg",
+        "addressPrefix": 42
+    },
+    {
+        "chainId": "0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Pichiu",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "PCHU",
+                "precision": 18
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://kusama.kylin-node.co.uk",
+                "name": "Kylin node"
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/pichiu.json",
+            "overridesCommon": true
+        },
+        "color": "linear-gradient(315deg, #A91056 0%, #F34594 100%)",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Pichiu.svg",
         "addressPrefix": 42
     }
 ]
