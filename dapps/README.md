@@ -36,6 +36,7 @@
 | Solarflare                        | https://app.solarflare.io/exchange/swap          | defi,staking,evm        |
 | Stellaswap                        | https://app.stellaswap.com/exchange/swap         | defi,staking,evm        |
 | Sub.ID                            | https://sub.id/#/                                | utilities               |
+| SubBridge                         | https://subbridge.io/                            | defi,evm                |
 | Subsocial App                     | https://app.subsocial.network/                   | community               |
 | Subsquare. Khala network          | https://khala.subsquare.io/                      | community               |
 | Talisman App                      | https://app.talisman.xyz/portfolio               | defi,crowdloans         |
