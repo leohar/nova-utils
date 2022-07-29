@@ -178,7 +178,7 @@
     "token": "TEER",
     "description": "Scalable solution for securely processing sensitive data",
     "website": "https://www.integritee.network/",
-    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Integritee.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Integritee_Kusama.svg",
     "rewardRate": 10
   },
   {
@@ -402,5 +402,63 @@
     "description": "Imbue Network is a decentralised crowdfunding DAO built on top of the Polkadot blockchain platform",
     "website": "https://www.imbue.network",
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Imbue.svg"
+  },
+  {
+    "paraid": "2125",
+    "name": "Tinkernet",
+    "token": "TNKR",
+    "description": "The Tinkernet is the canary network of the InvArch Network, designed as the IP Asset & accelerated development staging grounds for the Kusama ecosystem",
+    "website": "https://invarch.network/tinkernet",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tinkernet.svg"
+  },
+  {
+    "paraid": "2124",
+    "name": "Amplitude",
+    "token": "AMPE",
+    "description": "Amplitude is aiming to provide novel ways of utilizing fiat on DeFi",
+    "website": "https://pendulumchain.org/amplitude",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg"
+  },
+  {
+    "paraid": "2126",
+    "name": "Parallel Heiko 2",
+    "token": "HKO",
+    "description": "Decentralized money market protocol that offers lending, staking, and borrowing",
+    "website": "https://parallel.fi/",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg"
+  },
+  {
+    "paraid": "2123",
+    "name": "GM",
+    "token": "FREN",
+    "description": "GM solves the problem of the cold and isolated nature of crypto at large by encouraging the exchange of GMs and GNs across Dotsama",
+    "website": "https://www.gmordie.com",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/GM.svg"
+  },
+  {
+    "paraid": "2122",
+    "name": "Calamari",
+    "token": "KMA",
+    "description": "Private layer built for the entire Kusama ecosystem",
+    "website": "https://www.calamari.network/",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
+    "rewardRate": 0
+  },
+  {
+    "paraid": "2127",
+    "name": "SNOW",
+    "token": "ICZ",
+    "description": "SNOW is EVM and eWASM-compatible and is optimized for ICON’s BTP",
+    "website": "https://icenetwork.io/snow/",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/SNOW.svg"
+  },
+  {
+    "paraid": "2108",
+    "name": "KILT Spiritnet",
+    "token": "KILT",
+    "description": "Blockchain identity protocol for issuing self-sovereign, anonymous, verifiable credentials",
+    "website": "https://www.kilt.io/",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
+    "rewardRate": 25
   }
 ]

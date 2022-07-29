@@ -385,16 +385,6 @@
       ]
     },
     {
-      "name": "RomeDAO",
-      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/RomeDAO.svg",
-      "url": "https://romedao.finance/",
-      "categories": [
-        "defi",
-        "staking",
-        "evm"
-      ]
-    },
-    {
       "name": "ArthSwap",
       "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/ArthSwap.svg",
       "url": "https://app.arthswap.org/#/swap",
@@ -481,8 +471,7 @@
       "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Darwinia.svg",
       "url": "https://apps.darwinia.network/",
       "categories": [
-        "staking",
-        "test"
+        "staking"
       ]
     },
     {
@@ -492,6 +481,92 @@
       "categories": [
         "defi",
         "evm"
+      ]
+    },
+    {
+      "name": "Moonwell Artemis",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/MoonwellArtemis.svg",
+      "url": "https://moonwell.fi/artemis/GLMR",
+      "categories": [
+        "defi",
+        "evm"
+      ]
+    },
+    {
+      "name": "Skybreach",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Skybreach.png",
+      "url": "https://skybreach.app/",
+      "categories": [
+        "nft",
+        "evm"
+      ]
+    },
+    {
+      "name": "Polkawatch",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Polkawatch.svg",
+      "url": "https://polkawatch.app/",
+      "categories": [
+        "staking"
+      ]
+    },
+    {
+      "name": "Damned Pirates Society",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Damnedpiratessociety.svg",
+      "url": "https://damnedpiratessociety.io/",
+      "categories": [
+        "nft",
+        "evm"
+      ]
+    },
+    {
+      "name": "Polkadot Staking Dashboard",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/StakingDashboard.svg",
+      "url": "https://staking.polkadot.network/dashboard#/overview",
+      "categories": [
+        "staking"
+      ]
+    },
+    {
+      "name": "Moonsama",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Moonsama.svg",
+      "url": "https://marketplace.moonsama.com/",
+      "categories": [
+        "nft",
+        "evm"
+      ]
+    },
+    {
+      "name": "EVRLOOT",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/EVRLOOT.svg",
+      "url": "https://game.evrloot.com/game",
+      "categories": [
+        "nft"
+      ]
+    },
+    {
+      "name": "Downtown Moonbeam",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/DowntownMoonbeam.png",
+      "url": "https://dtmb.xyz",
+      "categories": [
+        "evm",
+        "utilities"
+      ]
+    },
+    {
+      "name": "Evolution Land. Columbus",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Evolutionland.png",
+      "url": "https://www.evolution.land/land/3",
+      "categories": [
+        "nft",
+        "evm"
+      ]
+    },
+    {
+      "name": "Basilisk Snek Swap",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/SnekSwap.svg",
+      "url": "https://app.basilisk.cloud/#/trade",
+      "categories": [
+        "defi"
       ]
     }
   ]
