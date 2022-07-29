@@ -2215,29 +2215,12 @@
                     "existentialDeposit": "1000000000000",
                     "transfersEnabled": true
                 }
-            },
-            {
-                "assetId": 8,
-                "symbol": "tDOT",
-                "precision": 10,
-                "type": "orml",
-                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/tDOT.svg",
-                "typeExtras": {
-                    "currencyIdScale": "0x0300000000",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "100000000",
-                    "transfersEnabled": true
-                }
             }
         ],
         "nodes": [
             {
                 "url": "wss://acala-rpc.dwellir.com",
                 "name": "Dwellir node"
-            },
-            {
-                "url": "wss://acala-rpc-0.aca-api.network",
-                "name": "Acala Foundation 0 node"
             },
             {
                 "url": "wss://acala-rpc-1.aca-api.network",
