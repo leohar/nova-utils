@@ -568,6 +568,40 @@
       "categories": [
         "defi"
       ]
+    },
+    {
+      "name": "Moonbeam Curve",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/MoonbeamCurve.svg",
+      "url": "https://moonbeam.curve.fi/",
+      "categories": [
+        "defi",
+        "evm"
+      ]
+    },
+    {
+      "name": "Nomad",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Nomad.svg",
+      "url": "https://app.nomad.xyz/",
+      "categories": [
+        "defi",
+        "evm"
+      ]
+    },
+    {
+      "name": "GM! Say it back",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/GM.svg",
+      "url": "https://app.gmordie.com/",
+      "categories": [
+        "community"
+      ]
+    },
+    {
+      "name": "Tinkernet Rewards Claim",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Tinkernet.svg",
+      "url": "https://www.tinker.network/claim",
+      "categories": [
+        "crowdloans"
+      ]
     }
   ]
 }
