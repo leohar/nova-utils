@@ -2469,6 +2469,10 @@
         ],
         "nodes": [
             {
+                "url": "wss://public-rpc.pinknode.io/moonbeam",
+                "name": "Pinknode node"
+            },
+            {
                 "url": "wss://moonbeam.public.blastapi.io",
                 "name": "Blast node"
             },
