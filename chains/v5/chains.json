@@ -613,6 +613,7 @@
                 "assetId": 21,
                 "symbol": "NEER",
                 "precision": 18,
+                "priceId": "metaverse-network-pioneer",
                 "type": "orml",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Bit.Country.svg",
                 "typeExtras": {
@@ -1334,6 +1335,34 @@
                 "precision": 12,
                 "priceId": "basilisk",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Basilisk.svg"
+            },
+            {
+                "assetId": 1,
+                "symbol": "KSM",
+                "precision": 12,
+                "priceId": "kusama",
+                "type": "orml",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kusama.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x01000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "100000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "assetId": 2,
+                "symbol": "aUSD",
+                "precision": 12,
+                "priceId": "acala-dollar",
+                "type": "orml",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/AUSD.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x02000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "10000000000",
+                    "transfersEnabled": true
+                }
             }
         ],
         "nodes": [
@@ -1351,6 +1380,12 @@
             }
         ],
         "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://basilisk.subscan.io/extrinsic/{hash}",
+                "account": "https://basilisk.subscan.io/account/{address}",
+                "event": null
+            },
             {
                 "name": "Sub.ID",
                 "account": "https://sub.id/{address}"
@@ -1887,6 +1922,7 @@
                 "assetId": 0,
                 "symbol": "NEER",
                 "precision": 18,
+                "priceId": "metaverse-network-pioneer",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Bit.Country.svg"
             }
         ],
@@ -1898,6 +1934,14 @@
             {
                 "url": "wss://pioneer.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://pioneer.subscan.io/extrinsic/{hash}",
+                "account": "https://pioneer.subscan.io/account/{address}",
+                "event": null
             }
         ],
         "types": {
@@ -2510,6 +2554,14 @@
                 "name": "Encointer association node"
             }
         ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://encointer.subscan.io/extrinsic/{hash}",
+                "account": "https://encointer.subscan.io/account/{address}",
+                "event": null
+            }
+        ],
         "types": {
             "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/encointer.json",
             "overridesCommon": true
@@ -3008,6 +3060,14 @@
                 "name": "Efinity node"
             }
         ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://efinity.subscan.io/extrinsic/{hash}",
+                "account": "https://efinity.subscan.io/account/{address}",
+                "event": null
+            }
+        ],
         "types": {
             "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/efinity.json",
             "overridesCommon": true
@@ -3037,6 +3097,14 @@
             {
                 "url": "wss://rpc-01.hydradx.io",
                 "name": "Calactic Council node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://hydradx.subscan.io/extrinsic/{hash}",
+                "account": "https://hydradx.subscan.io/account/{address}",
+                "event": null
             }
         ],
         "types": {
@@ -3182,6 +3250,7 @@
                 "assetId": 0,
                 "symbol": "NODL",
                 "precision": 11,
+                "priceId": "nodle-network",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Nodle.svg"
             }
         ],
@@ -3592,6 +3661,14 @@
                 "name": "Liebi node"
             }
         ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://bifrost.subscan.io/extrinsic/{hash}",
+                "account": "https://bifrost.subscan.io/account/{address}",
+                "event": null
+            }
+        ],
         "types": {
             "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/bifrost_polkadot.json",
             "overridesCommon": true
@@ -3869,6 +3946,14 @@
                 "name": "DataHighway node"
             }
         ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://datahighway.subscan.io/extrinsic/{hash}",
+                "account": "https://datahighway.subscan.io/account/{address}",
+                "event": null
+            }
+        ],
         "types": {
             "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/tanganika.json",
             "overridesCommon": true
@@ -3928,6 +4013,12 @@
         "types": {
             "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/imbue.json",
             "overridesCommon": true
+        },
+        "externalApi": {
+            "history": {
+                "type": "subquery",
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-imbue"
+            }
         },
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Imbue.svg",
         "addressPrefix": 42
@@ -4007,5 +4098,30 @@
         },
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/GM.svg",
         "addressPrefix": 7013
+    },
+    {
+        "chainId": "cceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Amplitude",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "AMPE",
+                "precision": 12,
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Amplitude.svg"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://pencol-kus-01.pendulumchain.tech",
+                "name": "PendulumChain node"
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/amplitude.json",
+            "overridesCommon": true
+        },
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg",
+        "addressPrefix": 57
     }
 ]

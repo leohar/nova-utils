@@ -16,7 +16,7 @@
 | Dotmarketcap                      | https://dotmarketcap.com/                            | utilities               |
 | Downtown Moonbeam                 | https://dtmb.xyz                                     | evm,utilities           |
 | EVRLOOT                           | https://game.evrloot.com/game                        | nft                     |
-| Evolution Land. Columbus          | https://www.evolution.land/land/3                    | nft,evm                 |
+| Evolution Land. Columbus          | https://portal.evolution.land/land/3/market/land     | nft,evm                 |
 | GM! Say it back                   | https://app.gmordie.com/                             | community               |
 | Huckleberry Finance               | https://www.huckleberry.finance/#/swap               | defi,staking,evm        |
 | Impossible Finance                | https://invest.impossible.finance/launchpad          | defi,evm                |
@@ -40,6 +40,7 @@
 | Polkadot.js                       | https://polkadot.js.org/apps/#                       | utilities               |
 | Polkassembly                      | https://polkadot.polkassembly.io/                    | community               |
 | Polkawatch                        | https://polkawatch.app/                              | staking                 |
+| Raresama                          | https://raresama.com/                                | nft                     |
 | Singular                          | https://singular.rmrk.app/                           | nft                     |
 | Singular 2.0                      | https://singular.app/                                | nft                     |
 | Skybreach                         | https://skybreach.app/                               | nft,evm                 |
@@ -51,5 +52,6 @@
 | Subsocial App                     | https://app.subsocial.network/                       | community               |
 | Subsquare. Khala network          | https://khala.subsquare.io/                          | community               |
 | Talisman App                      | https://app.talisman.xyz/portfolio                   | defi,crowdloans         |
+| Tinkernet Rewards Claim           | https://www.tinker.network/claim                     | crowdloans              |
 | TofuNFT                           | https://tofunft.com/                                 | nft,evm                 |
 | cBRIDGE                           | https://cbridge.celer.network/#/transfer             | defi,evm                |
