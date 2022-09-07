@@ -8,7 +8,6 @@
                 "symbol": "DOT",
                 "precision": 10,
                 "priceId": "polkadot",
-                "type": "orml",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
                 "staking": "relaychain",
                 "buyProviders": {
@@ -327,7 +326,11 @@
                 "type": "orml",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/BILLCOIN.svg",
                 "typeExtras": {
-                    "assetId": "223"
+                    "assetId": "223",
+                    "currencyIdScale": "0x0081",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "10000000000",
+                    "transfersEnabled": true
                 }
             },
             {
