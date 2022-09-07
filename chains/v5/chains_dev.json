@@ -323,13 +323,10 @@
                 "assetId": 5,
                 "symbol": "BILLCOIN",
                 "precision": 8,
-                "type": "orml",
+                "type": "statemine",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/BILLCOIN.svg",
                 "typeExtras": {
-                    "currencyIdScale": "0x0081",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "10000000000",
-                    "transfersEnabled": true
+                    "assetId": "223"
                 }
             },
             {
