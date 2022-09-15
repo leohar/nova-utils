@@ -60,11 +60,11 @@
         "externalApi": {
             "staking": {
                 "type": "subquery",
-                "url": "https://nova-wallet-polkadot.gapi.subquery.network"
+                "url": "https://sz.api.subquery.network/sq/nova-wallet/nova-wallet-polkadot"
             },
             "history": {
                 "type": "subquery",
-                "url": "https://nova-wallet-polkadot.gapi.subquery.network"
+                "url": "https://sz.api.subquery.network/sq/nova-wallet/nova-wallet-polkadot"
             },
             "crowdloans": {
                 "type": "github",
@@ -139,11 +139,11 @@
         "externalApi": {
             "staking": {
                 "type": "subquery",
-                "url": "https://nova-wallet-kusama.gapi.subquery.network"
+                "url": "https://sz.api.subquery.network/sq/nova-wallet/nova-wallet-kusama"
             },
             "history": {
                 "type": "subquery",
-                "url": "https://nova-wallet-kusama.gapi.subquery.network"
+                "url": "https://sz.api.subquery.network/sq/nova-wallet/nova-wallet-kusama"
             },
             "crowdloans": {
                 "type": "github",
@@ -201,11 +201,11 @@
         "externalApi": {
             "staking": {
                 "type": "subquery",
-                "url": "https://nova-wallet-westend.gapi.subquery.network"
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-westend"
             },
             "history": {
                 "type": "subquery",
-                "url": "https://nova-wallet-westend.gapi.subquery.network"
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-westend"
             },
             "crowdloans": {
                 "type": "github",
@@ -943,6 +943,28 @@
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Integritee.svg",
                 "typeExtras": {
                     "assetId": "105075627293246237499203909093923548958"
+                }
+            },
+            {
+                "assetId": 15,
+                "symbol": "xcLIT",
+                "precision": 12,
+                "priceId": "litentry",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Litentry.svg",
+                "typeExtras": {
+                    "assetId": "65216491554813189869575508812319036608"
+                }
+            },
+            {
+                "assetId": 16,
+                "symbol": "xcSDN",
+                "precision": 18,
+                "priceId": "shiden",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Shiden.svg",
+                "typeExtras": {
+                    "assetId": "16797826370226091782818345603793389938"
                 }
             }
         ],
@@ -2462,6 +2484,17 @@
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/interBTC.svg",
                 "typeExtras": {
                     "assetId": "120637696315203257380661607956669368914"
+                }
+            },
+            {
+                "assetId": 7,
+                "symbol": "POOP",
+                "precision": 18,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/POOP.svg",
+                "typeExtras": {
+                    "assetId": "270195117769614861929703564202131636628",
+                    "palletName": "LocalAssets"
                 }
             }
         ],
@@ -4520,6 +4553,14 @@
         ],
         "nodes": [
             {
+                "url": "wss://ws.gm.bldnodes.org",
+                "name": "bLd node"
+            },
+            {
+                "url": "wss://ws-node-gm.terrabiodao.org",
+                "name": "TerraBioDao node"
+            },
+            {
                 "url": "wss://kusama.gmordie.com",
                 "name": "GMorDieDAO node"
             }
@@ -4589,11 +4630,54 @@
                 "event": null
             }
         ],
+        "externalApi": {
+            "history": {
+                "type": "subquery",
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-ternoa"
+            }
+        },
         "types": {
             "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/ternoa.json",
             "overridesCommon": true
         },
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ternoa.svg",
         "addressPrefix": 42
+    },
+    {
+        "chainId": "18bcdb75a0bba577b084878db2dc2546eb21504eaad4b564bb7d47f9d02b6ace",
+        "name": "Ternoa Alphanet",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "CAPS",
+                "priceId": "coin-capsule",
+                "staking": "relaychain",
+                "precision": 18,
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Ternoa.svg"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://alphanet.ternoa.com",
+                "name": "Ternoa Alphanet node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Ternoa Alphanet explorer",
+                "extrinsic": "https://explorer-alphanet.ternoa.dev/extrinsic/{hash}",
+                "account": "https://explorer-alphanet.ternoa.dev/{address}",
+                "event": null
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/ternoa_alphanet.json",
+            "overridesCommon": true
+        },
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ternoa_Alphanet.svg",
+        "addressPrefix": 42,
+        "options": [
+            "testnet"
+        ]
     }
 ]

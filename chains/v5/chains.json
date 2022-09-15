@@ -1026,6 +1026,28 @@
                 "typeExtras": {
                     "assetId": "105075627293246237499203909093923548958"
                 }
+            },
+            {
+                "assetId": 15,
+                "symbol": "xcLIT",
+                "precision": 12,
+                "priceId": "litentry",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Litentry.svg",
+                "typeExtras": {
+                    "assetId": "65216491554813189869575508812319036608"
+                }
+            },
+            {
+                "assetId": 16,
+                "symbol": "xcSDN",
+                "precision": 18,
+                "priceId": "shiden",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Shiden.svg",
+                "typeExtras": {
+                    "assetId": "16797826370226091782818345603793389938"
+                }
             }
         ],
         "nodes": [
@@ -1368,12 +1390,8 @@
         ],
         "nodes": [
             {
-                "url": "wss://rpc-01.basilisk.hydradx.io",
-                "name": "Hydradx node"
-            },
-            {
-                "url": "wss://basilisk.api.onfinality.io/public-ws",
-                "name": "OnFinality node"
+                "url": "wss://rpc.basilisk.cloud",
+                "name": "Basilisk node"
             },
             {
                 "url": "wss://basilisk-rpc.dwellir.com",
@@ -3098,8 +3116,12 @@
         ],
         "nodes": [
             {
-                "url": "wss://rpc-01.hydradx.io",
+                "url": "wss://rpc.hydradx.cloud",
                 "name": "Calactic Council node"
+            },
+            {
+                "url": "wss://hydradx-rpc.dwellir.com",
+                "name": "Dwellir node"
             }
         ],
         "explorers": [
@@ -4091,6 +4113,14 @@
         ],
         "nodes": [
             {
+                "url": "wss://ws.gm.bldnodes.org",
+                "name": "bLd node"
+            },
+            {
+                "url": "wss://ws-node-gm.terrabiodao.org",
+                "name": "TerraBioDao node"
+            },
+            {
                 "url": "wss://kusama.gmordie.com",
                 "name": "GMorDieDAO node"
             }
@@ -4126,5 +4156,38 @@
         },
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg",
         "addressPrefix": 57
+    },
+    {
+        "chainId": "6859c81ca95ef624c9dfe4dc6e3381c33e5d6509e35e147092bfbc780f777c4e",
+        "name": "Ternoa",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "CAPS",
+                "priceId": "coin-capsule",
+                "precision": 18,
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Ternoa.svg"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://mainnet.ternoa.network",
+                "name": "CapsuleCorp node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Ternoa explorer",
+                "extrinsic": "https://explorer.ternoa.com/extrinsic/{hash}",
+                "account": "https://explorer.ternoa.com/account/{address}",
+                "event": null
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/ternoa.json",
+            "overridesCommon": true
+        },
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ternoa.svg",
+        "addressPrefix": 42
     }
 ]
