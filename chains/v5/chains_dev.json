@@ -60,11 +60,11 @@
         "externalApi": {
             "staking": {
                 "type": "subquery",
-                "url": "https://sz.api.subquery.network/sq/nova-wallet/nova-wallet-polkadot"
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-polkadot"
             },
             "history": {
                 "type": "subquery",
-                "url": "https://sz.api.subquery.network/sq/nova-wallet/nova-wallet-polkadot"
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-polkadot"
             },
             "crowdloans": {
                 "type": "github",
@@ -139,11 +139,11 @@
         "externalApi": {
             "staking": {
                 "type": "subquery",
-                "url": "https://sz.api.subquery.network/sq/nova-wallet/nova-wallet-kusama"
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-kusama"
             },
             "history": {
                 "type": "subquery",
-                "url": "https://sz.api.subquery.network/sq/nova-wallet/nova-wallet-kusama"
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-kusama"
             },
             "crowdloans": {
                 "type": "github",
@@ -219,6 +219,7 @@
     },
     {
         "chainId": "67f9723393ef76214df0118c34bbbd3dbebc8ed46a10973a8c969d48fe7598c9",
+        "parentId": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
         "name": "Westmint",
         "assets": [
             {
@@ -1142,7 +1143,7 @@
     {
         "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-        "name": "Bifrost",
+        "name": "Bifrost Kusama",
         "assets": [
             {
                 "assetId": 0,
@@ -2092,10 +2093,6 @@
         ],
         "nodes": [
             {
-                "url": "wss://pioneer-1-rpc.bit.country",
-                "name": "Bit.Country node"
-            },
-            {
                 "url": "wss://pioneer.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
             }
@@ -2491,10 +2488,33 @@
                 "symbol": "POOP",
                 "precision": 18,
                 "type": "statemine",
+                "priceId": "raresama",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/POOP.svg",
                 "typeExtras": {
                     "assetId": "270195117769614861929703564202131636628",
                     "palletName": "LocalAssets"
+                }
+            },
+            {
+                "assetId": 8,
+                "symbol": "xcASTR",
+                "precision": 18,
+                "type": "statemine",
+                "priceId": "astar",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Astar.svg",
+                "typeExtras": {
+                    "assetId": "224077081838586484055667086558292981199"
+                }
+            },
+            {
+                "assetId": 9,
+                "symbol": "xcPHA",
+                "precision": 12,
+                "type": "statemine",
+                "priceId": "pha",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Phala.svg",
+                "typeExtras": {
+                    "assetId": "132685552157663328694213725410064821485"
                 }
             }
         ],
@@ -4676,6 +4696,34 @@
         },
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ternoa_Alphanet.svg",
         "addressPrefix": 42,
+        "options": [
+            "testnet"
+        ]
+    },
+    {
+        "chainId": "d54f0988402deb4548538626ce37e4a318441ea0529ca369400ebec4e04dfe4b",
+        "name": "Turing Staging",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "TUR",
+                "staking": "turing",
+                "precision": 10,
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Turing.svg"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://rpc.turing-staging.oak.tech",
+                "name": "OAK node"
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/turing_staging.json",
+            "overridesCommon": true
+        },
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Turing_Staging.svg",
+        "addressPrefix": 51,
         "options": [
             "testnet"
         ]

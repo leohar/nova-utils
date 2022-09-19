@@ -808,6 +808,18 @@
                 "typeExtras": {
                     "assetId": "120637696315203257380661607956669368914"
                 }
+            },
+            {
+                "assetId": 7,
+                "symbol": "POOP",
+                "precision": 18,
+                "type": "statemine",
+                "priceId": "raresama",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/POOP.svg",
+                "typeExtras": {
+                    "assetId": "270195117769614861929703564202131636628",
+                    "palletName": "LocalAssets"
+                }
             }
         ],
         "nodes": [
@@ -1160,7 +1172,7 @@
     {
         "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-        "name": "Bifrost",
+        "name": "Bifrost Kusama",
         "assets": [
             {
                 "assetId": 0,
@@ -1946,10 +1958,6 @@
             }
         ],
         "nodes": [
-            {
-                "url": "wss://pioneer-1-rpc.bit.country",
-                "name": "Bit.Country node"
-            },
             {
                 "url": "wss://pioneer.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
@@ -4165,6 +4173,7 @@
                 "assetId": 0,
                 "symbol": "CAPS",
                 "priceId": "coin-capsule",
+                "staking": "relaychain",
                 "precision": 18,
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Ternoa.svg"
             }
