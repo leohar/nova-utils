@@ -3676,7 +3676,7 @@
                 "type": "orml",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kusama.svg",
                 "typeExtras": {
-                    "currencyIdScale": "0x01000000",
+                    "currencyIdScale": "0x01",
                     "currencyIdType": "u32",
                     "existentialDeposit": "100000000",
                     "transfersEnabled": true
