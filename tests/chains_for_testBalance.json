@@ -182,7 +182,7 @@
     {
         "chainId": "0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
         "name": "Turing",
-        "account": "0x488ced7d199b4386081a52505962128da5a3f54f4665db3d78b6e9f9e89eea4d"
+        "account": "0xde6c3184c7b03cf3d3623d079a033b007aab9e09f04ee8764490b254d596b57f"
     },
     {
         "chainId": "cdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
@@ -313,5 +313,10 @@
         "chainId": "7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
         "name": "Kapex",
         "account": "0xa66e3ebef250ad0ef0b9ead7ba1f9d2aceb6efcb83cc8e3c61e1bec20c3c1730"
+    },
+    {
+        "chainId": "6fbd74e5e1d0a61d52ccfe9d4adaed16dd3a7caa37c6bc4d0c2fa12e8b2f4063",
+        "name": "Polymesh Mainnet",
+        "account": "0xf2aee43ecd134756088d19159a44f8733c36d8d5fd63fc9ffb8821b4ad148a7e"
     }
 ]
