@@ -2528,6 +2528,17 @@
                 "typeExtras": {
                     "assetId": "132685552157663328694213725410064821485"
                 }
+            },
+            {
+                "assetId": 10,
+                "symbol": "xcUSDT",
+                "precision": 6,
+                "type": "statemine",
+                "priceId": "tether",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/USDT.svg",
+                "typeExtras": {
+                    "assetId": "311091173110107856861649819128533077277"
+                }
             }
         ],
         "nodes": [
@@ -2723,6 +2734,56 @@
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Moonbeam.svg",
                 "typeExtras": {
                     "assetId": "114"
+                }
+            },
+            {
+                "assetId": 7,
+                "symbol": "cDOT-6/13",
+                "precision": 10,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/cDOT.svg",
+                "typeExtras": {
+                    "assetId": "200060013"
+                }
+            },
+            {
+                "assetId": 8,
+                "symbol": "cDOT-7/14",
+                "precision": 10,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/cDOT.svg",
+                "typeExtras": {
+                    "assetId": "200070014"
+                }
+            },
+            {
+                "assetId": 9,
+                "symbol": "cDOT-8/15",
+                "precision": 10,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/cDOT.svg",
+                "typeExtras": {
+                    "assetId": "200080015"
+                }
+            },
+            {
+                "assetId": 10,
+                "symbol": "cDOT-9/16",
+                "precision": 10,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/cDOT.svg",
+                "typeExtras": {
+                    "assetId": "200090016"
+                }
+            },
+            {
+                "assetId": 11,
+                "symbol": "cDOT-10/17",
+                "precision": 10,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/cDOT.svg",
+                "typeExtras": {
+                    "assetId": "200100017"
                 }
             }
         ],

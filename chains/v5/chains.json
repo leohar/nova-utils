@@ -858,6 +858,17 @@
                 "typeExtras": {
                     "assetId": "132685552157663328694213725410064821485"
                 }
+            },
+            {
+                "assetId": 10,
+                "symbol": "xcUSDT",
+                "precision": 6,
+                "type": "statemine",
+                "priceId": "tether",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/USDT.svg",
+                "typeExtras": {
+                    "assetId": "311091173110107856861649819128533077277"
+                }
             }
         ],
         "nodes": [
@@ -2398,6 +2409,56 @@
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Moonbeam.svg",
                 "typeExtras": {
                     "assetId": "114"
+                }
+            },
+            {
+                "assetId": 7,
+                "symbol": "cDOT-6/13",
+                "precision": 10,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/cDOT.svg",
+                "typeExtras": {
+                    "assetId": "200060013"
+                }
+            },
+            {
+                "assetId": 8,
+                "symbol": "cDOT-7/14",
+                "precision": 10,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/cDOT.svg",
+                "typeExtras": {
+                    "assetId": "200070014"
+                }
+            },
+            {
+                "assetId": 9,
+                "symbol": "cDOT-8/15",
+                "precision": 10,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/cDOT.svg",
+                "typeExtras": {
+                    "assetId": "200080015"
+                }
+            },
+            {
+                "assetId": 10,
+                "symbol": "cDOT-9/16",
+                "precision": 10,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/cDOT.svg",
+                "typeExtras": {
+                    "assetId": "200090016"
+                }
+            },
+            {
+                "assetId": 11,
+                "symbol": "cDOT-10/17",
+                "precision": 10,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/cDOT.svg",
+                "typeExtras": {
+                    "assetId": "200100017"
                 }
             }
         ],
@@ -4214,7 +4275,7 @@
         ],
         "nodes": [
             {
-                "url": "wss://pencol-kus-01.pendulumchain.tech",
+                "url": "wss://rpc.pendulumchain.tech",
                 "name": "PendulumChain node"
             }
         ],
@@ -4375,5 +4436,38 @@
         },
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Totem.svg",
         "addressPrefix": 2007
+    },
+    {
+        "chainId": "6fbd74e5e1d0a61d52ccfe9d4adaed16dd3a7caa37c6bc4d0c2fa12e8b2f4063",
+        "name": "Polymesh",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "POLYX",
+                "precision": 6,
+                "priceId": "polymesh",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polymesh.svg"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://mainnet-rpc.polymesh.network",
+                "name": "Polymesh node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://polymesh.subscan.io/extrinsic/{hash}",
+                "account": "https://polymesh.subscan.io/account/{address}",
+                "event": null
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polymesh_mainnet.json",
+            "overridesCommon": true
+        },
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polymesh.svg",
+        "addressPrefix": 12
     }
 ]
