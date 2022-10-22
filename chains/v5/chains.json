@@ -21,10 +21,6 @@
         ],
         "nodes": [
             {
-                "url": "wss://polkadot-rpc.dwellir.com",
-                "name": "Dwellir node"
-            },
-            {
                 "url": "wss://rpc.polkadot.io",
                 "name": "Parity node"
             },
@@ -108,7 +104,7 @@
                 "name": "Dwellir node"
             },
             {
-                "url": "wss://kusama.public.curie.radiumblock.co/ws",
+                "url": "wss://kusama.public.curie.radiumblock.xyz/ws",
                 "name": "Radium block node"
             }
         ],
@@ -1447,6 +1443,19 @@
                     "existentialDeposit": "10000000000",
                     "transfersEnabled": true
                 }
+            },
+            {
+                "assetId": 3,
+                "symbol": "TNKR",
+                "precision": 12,
+                "type": "orml",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Tinkernet.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x06000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "1000000000",
+                    "transfersEnabled": true
+                }
             }
         ],
         "nodes": [
@@ -1907,7 +1916,8 @@
                 "symbol": "KMA",
                 "priceId": "calamari-network",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Calamari.svg",
-                "precision": 12
+                "precision": 12,
+                "staking": "parachain"
             }
         ],
         "nodes": [
@@ -1934,6 +1944,10 @@
         },
         "externalApi": {
             "history": {
+                "type": "subquery",
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-calamari"
+            },
+            "staking": {
                 "type": "subquery",
                 "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-calamari"
             }
@@ -2007,7 +2021,20 @@
                 "symbol": "NEER",
                 "precision": 18,
                 "priceId": "metaverse-network-pioneer",
-                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Bit.Country.svg"
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/NEER.svg"
+            },
+            {
+                "assetId": 1,
+                "symbol": "BIT",
+                "precision": 18,
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/BIT.svg",
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x030000000000000000",
+                    "currencyIdType": "bit_country_primitives.FungibleTokenId",
+                    "existentialDeposit": "0",
+                    "transfersEnabled": true
+                }
             }
         ],
         "nodes": [
@@ -2460,6 +2487,71 @@
                 "typeExtras": {
                     "assetId": "200100017"
                 }
+            },
+            {
+                "assetId": 12,
+                "symbol": "INTR",
+                "precision": 10,
+                "priceId": "interlay",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Interlay.svg",
+                "typeExtras": {
+                    "assetId": "120"
+                }
+            },
+            {
+                "assetId": 13,
+                "symbol": "iBTC",
+                "precision": 8,
+                "priceId": "bitcoin",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/interBTC.svg",
+                "typeExtras": {
+                    "assetId": "122"
+                }
+            },
+            {
+                "assetId": 14,
+                "symbol": "USDT",
+                "precision": 6,
+                "priceId": "tether",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/USDT.svg",
+                "typeExtras": {
+                    "assetId": "102"
+                }
+            },
+            {
+                "assetId": 15,
+                "symbol": "CLV",
+                "precision": 18,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Clover.svg",
+                "typeExtras": {
+                    "assetId": "130"
+                }
+            },
+            {
+                "assetId": 16,
+                "symbol": "ASTR",
+                "precision": 18,
+                "priceId": "astar",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Astar.svg",
+                "typeExtras": {
+                    "assetId": "112"
+                }
+            },
+            {
+                "assetId": 17,
+                "symbol": "PHA",
+                "precision": 12,
+                "priceId": "pha",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Phala.svg",
+                "typeExtras": {
+                    "assetId": "115"
+                }
             }
         ],
         "nodes": [
@@ -2822,10 +2914,6 @@
                 "name": "Dwellir node"
             },
             {
-                "url": "wss://rpc-0.zeitgeist.pm",
-                "name": "ZeitgeistPM node"
-            },
-            {
                 "url": "wss://zeitgeist.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
             }
@@ -2871,10 +2959,6 @@
             {
                 "url": "wss://rpc.kico.dico.io",
                 "name": "DICO FOUNDATION node"
-            },
-            {
-                "url": "wss://rpc.api.kico.dico.io",
-                "name": "DICO FOUNDATION 2 node"
             }
         ],
         "types": {
@@ -3662,10 +3746,6 @@
             {
                 "url": "wss://rpc.composable.finance",
                 "name": "Composable node"
-            },
-            {
-                "url": "wss://composable-rpc.dwellir.com",
-                "name": "Dwellir node"
             }
         ],
         "explorers": [
@@ -4127,6 +4207,12 @@
                 "name": "Dwellir node"
             }
         ],
+        "externalApi": {
+            "history": {
+                "type": "subquery",
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-bajun"
+            }
+        },
         "types": {
             "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/bajun.json",
             "overridesCommon": true
@@ -4181,6 +4267,10 @@
             {
                 "url": "wss://tinker.invarch.network",
                 "name": "InvArch node"
+            },
+            {
+                "url": "wss://invarch-tinkernet.api.onfinality.io/public-ws",
+                "name": "OnFinality node"
             }
         ],
         "types": {
@@ -4469,5 +4559,38 @@
         },
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polymesh.svg",
         "addressPrefix": 12
+    },
+    {
+        "chainId": "b34f6cd03a41f0fab38ba9fd5b11cce5f303633c46f39f0c6fdc7c3c602bafa9",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Snow",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "ICZ",
+                "precision": 18,
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/ICZ.svg"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://snow-rpc.icenetwork.io",
+                "name": "Snow node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://snow.subscan.io/extrinsic/{hash}",
+                "account": "https://snow.subscan.io/account/{address}",
+                "event": null
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/snow.json",
+            "overridesCommon": true
+        },
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/SNOW.svg",
+        "addressPrefix": 2207
     }
 ]
