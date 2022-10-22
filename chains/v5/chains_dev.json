@@ -21,7 +21,7 @@
         ],
         "nodes": [
             {
-                "url": "wss://polkadot-rpc.dwellir.com",
+                "url": "wss://kusama.kylin-node.co.uk",
                 "name": "Dwellir node"
             },
             {
