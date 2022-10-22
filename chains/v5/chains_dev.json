@@ -21,6 +21,10 @@
         ],
         "nodes": [
             {
+                "url": "wss://kusama.kylin-node.co.uk",
+                "name": "Dwellir node"
+            },
+            {
                 "url": "wss://rpc.polkadot.io",
                 "name": "Parity node"
             },
