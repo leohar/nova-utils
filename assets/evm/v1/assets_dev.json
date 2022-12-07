@@ -60,7 +60,7 @@
         ]
     },
     {
-        "symbol": "DAI",
+        "symbol": "DAIMNE",
         "precision": 18,
         "name": "Dai Stablecoin",
         "priceId": "dai",
@@ -210,19 +210,6 @@
             {
                 "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
                 "contractAddress": "0x8006320739fC281da67Ee62eB9b4Ef8ADD5C903a"
-            }
-        ]
-    },
-    {
-        "symbol": "GLINT",
-        "precision": 18,
-        "name": "Beamswap Token",
-        "priceId": "beamswap",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/GLINT.svg",
-        "instances": [
-            {
-                "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                "contractAddress": "0xcd3B51D98478D53F4515A306bE565c6EebeF1D58"
             }
         ]
     },
