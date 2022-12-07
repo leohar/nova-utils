@@ -360,19 +360,6 @@
         ]
     },
     {
-        "symbol": "STELLA",
-        "precision": 18,
-        "name": "StellaSwap",
-        "priceId": "stellaswap",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/STELLA.svg",
-        "instances": [
-            {
-                "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                "contractAddress": "0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2"
-            }
-        ]
-    },
-    {
         "symbol": "BNB",
         "precision": 18,
         "name": "Binance",
