@@ -11,6 +11,7 @@
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
                 "staking": "relaychain",
                 "buyProviders": {
+                    "ramp": {},
                     "transak": {
                         "network": "MAINNET"
                     },
@@ -97,6 +98,7 @@
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kusama.svg",
                 "staking": "relaychain",
                 "buyProviders": {
+                    "ramp": {},
                     "transak": {
                         "network": "MAINNET"
                     },
