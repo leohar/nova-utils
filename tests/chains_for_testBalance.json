@@ -215,11 +215,6 @@
         "account": "0x6d6f646c70792f74727372790000000000000000000000000000000000000000"
     },
     {
-        "chainId": "a0c6e3bac382b316a68bca7141af1fba507207594c761076847ce358aeedcc21",
-        "name": "KILT Peregrine",
-        "account": "0xde0e5233c3471ca5faa5b90d1ac78cc42fbe9ac64151805f994c659fbda0d302"
-    },
-    {
         "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
         "name": "Bifrost Polkadot",
         "account": "0x2c64a40ec236d0a0823065791946f6254c4577c6110f512614bd6ece1a3fa22b"
@@ -338,5 +333,10 @@
         "chainId": "50dd5d206917bf10502c68fb4d18a59fc8aa31586f4e8856b493e43544aa82aa",
         "name": "XX network",
         "account": "0xeec53524b5e3a8d26b40aefd1f2202e5c475ca0004fd62ab0f47e3bb9dcc2c3a"
+    },
+    {
+        "chainId": "5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+        "name": "Pendulum",
+        "account": "0xa06a540941cca06820f50953e30b9a2c4da3c8b5b8bc828083f211f7d8b7d4e4"
     }
 ]

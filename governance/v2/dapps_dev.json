@@ -46,6 +46,7 @@
       {
         "title": "Subsquare",
         "urlV1": "https://kusama.subsquare.io/democracy/referendum/{referendumId}",
+        "urlV2": "https://kusama.subsquare.io/referenda/referendum/{referendumId}",
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/color/SubSquare.svg",
         "details": "Comment and react"
       },
@@ -89,9 +90,9 @@
     "chainId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
     "dapps": [
       {
-        "title": "Polkassembly",
-        "urlV1": "https://basilisk.polkassembly.io/referendum/{referendumId}",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Polkassembly.svg",
+        "title": "Subsquare",
+        "urlV1": "https://basilisk.subsquare.io/democracy/referendum/{referendumId}",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/color/SubSquare.svg",
         "details": "Comment and react"
       }
     ]
@@ -150,9 +151,9 @@
     "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
     "dapps": [
       {
-        "title": "Polkassembly",
-        "urlV1": "https://hydradx.polkassembly.io/referendum/{referendumId}",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Polkassembly.svg",
+        "title": "Subsquare",
+        "urlV1": "https://hydradx.subsquare.io/democracy/referendum/{referendumId}",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/color/SubSquare.svg",
         "details": "Comment and react"
       }
     ]
