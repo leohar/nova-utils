@@ -4598,6 +4598,61 @@
         "addressPrefix": 2032
     },
     {
+        "chainId": "97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Nodle Parachain",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "NODL",
+                "precision": 11,
+                "priceId": "nodle-network",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Nodle.svg"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://nodle-parachain.api.onfinality.io/public-ws",
+                "name": "OnFinality node"
+            },
+            {
+                "url": "wss://eden-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://nodle.subscan.io/extrinsic/{hash}",
+                "account": "https://nodle.subscan.io/account/{address}",
+                "event": null
+            },
+            {
+                "name": "Sub.ID",
+                "account": "https://sub.id/{address}"
+            },
+            {
+                "name": "Polkaholic",
+                "account": "https://polkaholic.io/account/{address}",
+                "extrinsic": "https://polkaholic.io/tx/{hash}"
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/nodle.json",
+            "overridesCommon": true
+        },
+        "externalApi": {
+            "history": [
+                {
+                    "type": "subquery",
+                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-nodle"
+                }
+            ]
+        },
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Nodle.svg",
+        "addressPrefix": 37
+    },
+    {
         "chainId": "55b88a59dded27563391d619d805572dd6b6b89d302b0dd792d01b3c41cfe5b1",
         "name": "Singular testnet",
         "assets": [
