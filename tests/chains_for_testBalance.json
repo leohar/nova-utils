@@ -42,7 +42,7 @@
     {
         "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
         "name": "Bifrost",
-        "account": "0xee98c02253479726b456f3f7c5a9014d0198f53717de881c15f85becd706313c"
+        "account": "0xd2f4a1145d6af282a61d8cd8a4d93234232185d07a51f04b43ce593c1e274c2c"
     },
     {
         "chainId": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
@@ -107,7 +107,7 @@
     {
         "chainId": "6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
         "name": "Picasso",
-        "account": "0x82e0e20e288f8f1edb4de8ecf452862525fbf303c49c56478a8ce8698cf38f56"
+        "account": "0x6d6f646c70616c5f63726f770000000000000000000000000000000000000000"
     },
     {
         "chainId": "da5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
@@ -143,11 +143,6 @@
         "chainId": "7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
         "name": "Encointer",
         "account": "0xa01b1aa000939d05e293a6b017b728d9ec763ed6adbe8eb5ea99937f2931dc05"
-    },
-    {
-        "chainId": "eac895d7768b17837a9c3a9f0280c01502c3ef40193df923490a0fa9c60ea076",
-        "name": "Crab",
-        "account": "0x129d025b24257aabdefac93d00419f06a38e3a5e2314dd6866b16e8f205ce074"
     },
     {
         "chainId": "4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
@@ -197,7 +192,7 @@
     {
         "chainId": "daab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
         "name": "Composable Finance",
-        "account": "0x7c955939c78c2a3b857ed14ae1494ce317fa514ebd7a01731521d7e60ee5a31b"
+        "account": "0xb4a559cd866a3b103fdcfc261170b6acdd55f1a39f505981ad2e350a5a3b3217"
     },
     {
         "chainId": "3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
@@ -338,5 +333,25 @@
         "chainId": "5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
         "name": "Pendulum",
         "account": "0xa06a540941cca06820f50953e30b9a2c4da3c8b5b8bc828083f211f7d8b7d4e4"
+    },
+    {
+        "chainId": "8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+        "name": "Aventus",
+        "account": "0x08fc22150c0401b9acefc2f9cf5900420f0b0e1e54115f223d1c106d6d4d1b23"
+    },
+    {
+        "chainId": "4319cc49ee79495b57a1fec4d2bd43f59052dcc690276de566c2691d6df4f7b8",
+        "name": "Crust",
+        "account": "0x0a2831bc1a5cfdfd6aca13c77cf934fdf2a6010d041d4d76a62698cd58c87956"
+    },
+    {
+        "chainId": "dce5477cfca571c2cb652f38bbb70429004be3cf9649dd2b4ad9455b2251fe43",
+        "name": "Hashed Network",
+        "account": "0x28e9ee1cfb3d986c0982ccb3aca95fc38d7522d57bdf1bec19a9e966f7369d70"
+    },
+    {
+        "chainId": "2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
+        "name": "Bittensor",
+        "account": "0xcc21ceaa4c63ce0feedf24984a4983e078ce46e146df91e7904eb646ed80403e"
     }
 ]
