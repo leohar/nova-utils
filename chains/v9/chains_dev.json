@@ -3199,6 +3199,10 @@
         ],
         "nodes": [
             {
+                "url": "wss://mainnet.infura.io/ws/v3/1e69544301064ef19edb194a14fb75f3",
+                "name": "Infura node 2"
+            },
+            {
                 "url": "wss://mainnet.infura.io/ws/v3/{INFURA_API_KEY}",
                 "name": "Infura test node"
             }
@@ -7038,7 +7042,7 @@
         "externalApi": {
             "history": [
                 {
-                    "type": "polygonscan",
+                    "type": "etherscan",
                     "url": "https://api.polygonscan.com/api",
                     "parameters": {
                         "assetType": "evm"
@@ -7049,6 +7053,96 @@
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polygon.svg",
         "addressPrefix": 137,
         "options": [
+            "ethereumBased",
+            "noSubstrateRuntime"
+        ]
+    },
+    {
+        "chainId": "eip155:2109",
+        "name": "Exosama",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "SAMA",
+                "priceId": "exosama-network",
+                "type": "evmNative",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/MOONSAMA.svg",
+                "precision": 18
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://rpc.exosama.com",
+                "name": "Exosama node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Exosama explorer",
+                "extrinsic": "https://explorer.exosama.com/tx/{hash}",
+                "account": "https://explorer.exosama.com/address/{address}",
+                "event": null
+            }
+        ],
+        "externalApi": {
+            "history": [
+                {
+                    "type": "etherscan",
+                    "url": "https://explorer.exosama.com/api",
+                    "parameters": {
+                        "assetType": "evm"
+                    }
+                }
+            ]
+        },
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Exosama.svg",
+        "addressPrefix": 2109,
+        "options": [
+            "ethereumBased",
+            "noSubstrateRuntime"
+        ]
+    },
+    {
+        "chainId": "eip155:80001",
+        "name": "Polygon - Mumbai",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "MATIC",
+                "type": "evmNative",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/MATIC.svg",
+                "precision": 18
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://polygon-testnet.public.blastapi.io",
+                "name": "Mumbai node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Mumbai Polygonscan",
+                "extrinsic": "https://mumbai.polygonscan.com/tx/{hash}",
+                "account": "https://mumbai.polygonscan.com/address/{address}",
+                "event": null
+            }
+        ],
+        "externalApi": {
+            "history": [
+                {
+                    "type": "etherscan",
+                    "url": "https://api-testnet.polygonscan.com/api",
+                    "parameters": {
+                        "assetType": "evm"
+                    }
+                }
+            ]
+        },
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polygon_Mumbai.svg",
+        "addressPrefix": 80001,
+        "options": [
+            "testnet",
             "ethereumBased",
             "noSubstrateRuntime"
         ]
