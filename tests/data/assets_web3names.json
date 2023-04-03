@@ -1,0 +1,43 @@
+{
+	"polkadot:91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3/slip44:354": [{
+			"account": "121eb2BdXbD2AbSno4qSpiGKL28TNGngzvfvLXQtN6qCmG7N",
+			"description": "🏡 Day 7"
+		},
+		{
+			"account": "4s3vjsyRUSgy3mj2GgMFhdw3yFMQRdHBoPJo9VrCKadzRkTh",
+            "description": "valid Kilt"
+		},
+        {
+			"account": "158rvBQ6sPTM7YMPrSvMMPpuQovELfMQdeFomXQkj63TjeNy"
+		},
+        {
+			"account": "4prsAA3eHjYFDu1Xu3jiWabLb15F6xWkHX41hUyDsYisTfW3",
+            "description": "removed id"
+		},
+		{
+			"account": "0x467E99717a0f54226454121e6e20Dd1549b30d0e"
+		},
+		{
+			"account": "0x7981bf847603d89f11254b4eb4c251ED2593863b",
+			"description": "Personal account"
+		},
+		{
+			"account": "0x3d89f11254b4eb4c251ED2593863b",
+			"description": "Invalid Personal account"
+		},
+		{
+			"account": "0x11254b4eb4c251ED2593863b"
+		}
+	],
+	"eip155:1/erc20:0x2170ed0880ac9a755fd29b2688956bd959f933f8": [{
+		"account": "0x5173Dab1947CFD36fA7dCdBAE55C7E71A982a181"
+	}],
+	"eip:1/slip44:60": [{
+			"account": "0x5173Dab1947CFD36fA7dCdBAE55C7E71A982a181",
+			"description": "NFT sales"
+		},
+		{
+			"account": "0x6b175474e89094c44da98b954ee"
+		}
+	]
+}
