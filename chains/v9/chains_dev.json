@@ -3200,6 +3200,10 @@
         "nodeSelectionStrategy": "uniform",
         "nodes": [
             {
+                "url": "wss://rpc-mainnet.matic.network/",
+                "name": "Infura invalid node"
+            },
+            {
                 "url": "wss://mainnet.infura.io/ws/v3/32a2be59297444c9bcb2b61bb700c6fe",
                 "name": "Infura failing node"
             },
