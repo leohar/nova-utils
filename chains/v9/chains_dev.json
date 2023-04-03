@@ -3197,7 +3197,7 @@
                 "precision": 18
             }
         ],
-        "nodeSelectionStrategy": "uniform",
+        "nodeSelectionStrategy": "roundRobin",
         "nodes": [
             {
                 "url": "wss://rpc-mainnet.matic.network/",
