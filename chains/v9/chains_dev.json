@@ -3206,14 +3206,6 @@
             {
                 "url": "wss://mainnet.infura.io/ws/v3/32a2be59297444c9bcb2b61bb700c6fe",
                 "name": "Infura failing node"
-            },
-            {
-                "url": "wss://mainnet.infura.io/ws/v3/{INFURA_API_KEY}",
-                "name": "Infura test node"
-            },
-            {
-                "url": "wss://mainnet.infura.io/ws/v3/1e69544301064ef19edb194a14fb75f3",
-                "name": "Infura node 2"
             }
         ],
         "explorers": [
