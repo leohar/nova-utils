@@ -30,6 +30,15 @@
       "account": "0x11254b4eb4c251ED2593863b"
     }
   ],
+    "polkadot:91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3/slip44:787": [
+    {
+      "account": "158rvBQ6sPTM7YMPrSvMMPpuQovELfMQdeFomXQkj63TjeNy",
+      "description": "valid Kilt"
+    },
+    {
+      "account": "158rvBQ6sPTM7YMPrSvMMPpuQovELfMQdeFomXQ"
+    }
+  ],
   "polkadot:fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c/slip44:787": [
     {
       "account": "251TW6p8iJCcg8Q2umib8QV9sfMAtVecX3o7vMqmMdzLYif7",
