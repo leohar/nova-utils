@@ -70,15 +70,20 @@
       "description": "invalid Moonbeam"
     }
   ],
-  "eip155:1/erc20:0x2170ed0880ac9a755fd29b2688956bd959f933f8": [
-    {
-      "account": "0x5173Dab1947CFD36fA7dCdBAE55C7E71A982a181"
-    }
-  ],
-  "eip:1/slip44:60": [
+  "eip155:1/slip44:60": [
     {
       "account": "0x5173Dab1947CFD36fA7dCdBAE55C7E71A982a181",
-      "description": "NFT sales"
+      "description": "valid ETH Ethereum"
+    },
+    {
+      "account": "5173Dab1947CFD36fA7dCdBAE55C7E71A982a181",
+      "description": "invalid ETH"
+    }
+  ],
+  "eip155:1/erc20:0x6b175474e89094c44da98b954eedeac495271d0f": [
+    {
+      "account": "0x5173Dab1947CFD36fA7dCdBAE55C7E71A982a181",
+      "description": "valid DAI Ethereum"
     },
     {
       "account": "0x6b175474e89094c44da98b954ee"
