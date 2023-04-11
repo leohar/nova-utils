@@ -122,5 +122,9 @@
     {
         "index": "99999997",
         "symbol": "EQ"
+    },
+    {
+        "index": "558",
+        "symbol": "TAO"
     }
 ]
