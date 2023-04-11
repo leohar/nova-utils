@@ -3111,7 +3111,7 @@
         ],
         "nodes": [
             {
-                "url": "wss://api.onfinality.io/public",
+                "url": "wss://moonbeam.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
             }
         ],
