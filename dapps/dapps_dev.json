@@ -17,6 +17,10 @@
       "id": "evm"
     },
     {
+      "name": "Gaming",
+      "id": "gaming"
+    },
+    {
       "name": "Governance",
       "id": "governance"
     },
@@ -475,7 +479,8 @@
       "url": "https://skybreach.app/",
       "categories": [
         "nft",
-        "evm"
+        "evm",
+        "gaming"
       ]
     },
     {
@@ -492,7 +497,8 @@
       "url": "https://damnedpiratessociety.io/",
       "categories": [
         "nft",
-        "evm"
+        "evm",
+        "gaming"
       ]
     },
     {
@@ -526,7 +532,8 @@
       "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/EVRLOOT.svg",
       "url": "https://game.evrloot.com/game",
       "categories": [
-        "nft"
+        "nft",
+        "gaming"
       ]
     },
     {
@@ -544,7 +551,8 @@
       "url": "https://portal.evolution.land/land/3/market/land",
       "categories": [
         "nft",
-        "evm"
+        "evm",
+        "gaming"
       ]
     },
     {
@@ -596,7 +604,8 @@
       "url": "https://pioneer.bit.country/",
       "categories": [
         "nft",
-        "staking"
+        "staking",
+        "gaming"
       ]
     },
     {
