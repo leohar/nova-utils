@@ -186,13 +186,13 @@
             "staking": [
                 {
                     "type": "subquery",
-                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-kusama"
+                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-kusama__bm92Y"
                 }
             ],
             "history": [
                 {
                     "type": "subquery",
-                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-kusama"
+                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-kusama__bm92Y"
                 }
             ],
             "crowdloans": [
