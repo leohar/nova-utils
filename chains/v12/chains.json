@@ -24,6 +24,10 @@
                 "name": "Parity node"
             },
             {
+                "url": "wss://rpc-polkadot.luckyfriday.io",
+                "name": "LuckyFriday node"
+            },
+            {
                 "url": "wss://polkadot.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
             },
@@ -131,6 +135,10 @@
                 "name": "IBP network node"
             },
             {
+                "url": "wss://rpc-kusama.luckyfriday.io",
+                "name": "LuckyFriday node"
+            },
+            {
                 "url": "wss://1rpc.io/ksm",
                 "name": "Automata 1RPC node"
             },
@@ -212,14 +220,13 @@
             "governance-delegations": [
                 {
                     "type": "subquery",
-                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-kusama-governance2"
+                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-kusama-governance"
                 }
             ]
         },
         "options": [
             "crowdloans",
-            "governance",
-            "governance-v1"
+            "governance"
         ]
     },
     {
@@ -5173,12 +5180,12 @@
         ],
         "nodes": [
             {
-                "url": "wss://prod-kusama-collator-01.mangatafinance.cloud",
+                "url": "wss://kusama-rpc.mangata.online",
                 "name": "Mangata node"
             },
             {
-                "url": "wss://mangata-x.api.onfinality.io/public-ws",
-                "name": "OnFinality node"
+                "url": "wss://kusama-archive.mangata.online",
+                "name": "Mangata archive node"
             }
         ],
         "explorers": [
@@ -6333,5 +6340,37 @@
         },
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Frequency.svg",
         "addressPrefix": 90
+    },
+    {
+        "chainId": "fe1b4c55fd4d668101126434206571a7838a8b6b93a6d1b95d607e78e6c53763",
+        "name": "Vara",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "VARA",
+                "precision": 12,
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/VARA.svg"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://rpc.vara-network.io",
+                "name": "Gear Tech node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Varascan",
+                "extrinsic": null,
+                "account": "https://explorer.vara-network.io/account/{address}",
+                "event": null
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/vara.json",
+            "overridesCommon": true
+        },
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Vara.svg",
+        "addressPrefix": 137
     }
 ]
