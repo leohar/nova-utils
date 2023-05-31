@@ -2922,6 +2922,20 @@
                     "existentialDeposit": "10000000000000000",
                     "transfersEnabled": true
                 }
+            },
+            {
+                "assetId": 14,
+                "symbol": "USDT",
+                "precision": 6,
+                "type": "orml",
+                "priceId": "tether",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/USDT.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x050c00",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "10000",
+                    "transfersEnabled": true
+                }
             }
         ],
         "nodes": [
@@ -4742,6 +4756,20 @@
                     "existentialDeposit": "147058823529412000",
                     "transfersEnabled": true
                 }
+            },
+            {
+                "assetId": 9,
+                "symbol": "USDT",
+                "precision": 6,
+                "priceId": "tether",
+                "type": "orml",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/USDT.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x0a000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "10000",
+                    "transfersEnabled": true
+                }
             }
         ],
         "nodes": [
@@ -5044,8 +5072,16 @@
         ],
         "nodes": [
             {
+                "url": "wss://phala-rpc.dwellir.com",
+                "name": "Dwellir node"
+            },
+            {
                 "url": "wss://api.phala.network/ws",
                 "name": "Phala node"
+            },
+            {
+                "url": "wss://phala.api.onfinality.io/public-ws",
+                "name": "OnFinality node"
             }
         ],
         "explorers": [
@@ -5358,6 +5394,10 @@
         ],
         "nodes": [
             {
+                "url": "wss://composable.api.onfinality.io/public-ws",
+                "name": "Onfinality node"
+            },
+            {
                 "url": "wss://rpc.composable.finance",
                 "name": "Composable node"
             }
@@ -5545,6 +5585,20 @@
                     "currencyIdScale": "0x0800",
                     "currencyIdType": "node_primitives.currency.CurrencyId",
                     "existentialDeposit": "1000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "assetId": 3,
+                "symbol": "USDT",
+                "precision": 6,
+                "priceId": "tether",
+                "type": "orml",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/USDT.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x0802",
+                    "currencyIdType": "node_primitives.currency.CurrencyId",
+                    "existentialDeposit": "1000",
                     "transfersEnabled": true
                 }
             }
@@ -6245,10 +6299,6 @@
             {
                 "url": "wss://ws.gm.bldnodes.org",
                 "name": "bLd node"
-            },
-            {
-                "url": "wss://intern.gmordie.com",
-                "name": "GM intern node"
             },
             {
                 "url": "wss://leemo.gmordie.com",
@@ -7172,10 +7222,6 @@
         ],
         "nodes": [
             {
-                "url": "wss://c1.hashed.network",
-                "name": "Hashed systems 1 node"
-            },
-            {
                 "url": "wss://c2.hashed.network",
                 "name": "Hashed systems 2 node"
             }
@@ -7582,7 +7628,7 @@
         ],
         "nodes": [
             {
-                "url": "wss://mainnet-anchornode-1.giantprotocol.org:443",
+                "url": "wss://rpc-anchor-1-giant-mainnet-ue1.giantprotocol.org:443",
                 "name": "Anchor node"
             }
         ],
