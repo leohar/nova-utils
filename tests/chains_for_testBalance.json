@@ -240,19 +240,9 @@
         "account": "0xb48663c0c39f8b6f69550dd2d7af070e0b638d675643b50b91bc45ac6e946d5c"
     },
     {
-        "chainId": "0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
-        "name": "Pichiu",
-        "account": "0xfab8f4d540d69953f04b3afdd3e3df57937a4a24de85217f3bdeed59f62d7d17"
-    },
-    {
         "chainId": "feb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
         "name": "Kabocha",
         "account": "0x2a6a802c4ea04e94d5d1788fede99e91b9df2c36c2a79388508d253bb426a45f"
-    },
-    {
-        "chainId": "eacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
-        "name": "Tanganika",
-        "account": "0x32f763291ff1963cdf1944539ea99fc3735a7d6f6689ba49bee01f3bc77b0648"
     },
     {
         "chainId": "35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
@@ -368,5 +358,15 @@
         "chainId": "49f4849244114177544d73d2412289f6d73a892b9eb1ca97cef81c9c0c9ec0ff",
         "name": "GIANT",
         "account": "0x0017d5bf525454578edba65dbe3738fa76b77d0b573810f1a0423571abb32a58"
+    },
+    {
+        "chainId": "00dcb981df86429de8bbacf9803401f09485366c44efbf53af9ecfab03adc7e5",
+        "name": "Kusama Bridge Hub",
+        "account": "0x72a5376b58ed027e2aeb7093e96e6a3c67a5562ba8dc883562cb88ceefcc3c16"
+    },
+    {
+        "chainId": "46ee89aa2eedd13e988962630ec9fb7565964cf5023bb351f2b6b25c1b68b0b2",
+        "name": "Polkadot Collectives",
+        "account": "0x5270ec35ba01254d8bff046a1a58f16d3ae615c235efd6e99a35f233b2d9df2c"
     }
 ]
