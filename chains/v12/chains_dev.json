@@ -10,7 +10,7 @@
                 "priceId": "polkadot",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
                 "staking": [
-                    "nomination-pools"
+                    "relaychain"
                 ],
                 "buyProviders": {
                     "transak": {
