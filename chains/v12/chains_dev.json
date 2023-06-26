@@ -4271,7 +4271,7 @@
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
                 "typeExtras": {
                     "currencyIdScale": "0x0500000000",
-                    "currencyIdType": "u32",
+                    "currencyIdType": "zeitgeist_primitives.asset",
                     "existentialDeposit": "10000000",
                     "transfersEnabled": true
                 }
