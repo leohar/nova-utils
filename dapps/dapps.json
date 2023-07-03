@@ -104,8 +104,7 @@
       "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Talisman.svg",
       "url": "https://app.talisman.xyz/portfolio",
       "categories": [
-        "crowdloans",
-        "staking"
+        "crowdloans"
       ]
     },
     {
@@ -495,6 +494,23 @@
       "name": "GIANTProtocol",
       "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Giant.svg",
       "url": "https://app.giantprotocol.org/shop",
+      "categories": [
+        "utilities"
+      ]
+    },
+    {
+      "name": "Pendulum Chain Portal",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/PEN.svg",
+      "url": "https://portal.pendulumchain.org/pendulum/dashboard",
+      "categories": [
+        "utilities",
+        "staking"
+      ]
+    },
+    {
+      "name": "Robonomics",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Robonomics.svg",
+      "url": "https://dapp.robonomics.network/#/",
       "categories": [
         "utilities"
       ]

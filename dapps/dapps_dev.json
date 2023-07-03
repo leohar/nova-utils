@@ -154,7 +154,6 @@
       "url": "https://app.talisman.xyz/portfolio",
       "categories": [
         "crowdloans",
-        "staking",
         "nft"
       ]
     },
@@ -215,9 +214,9 @@
     {
       "name": "Robonomics",
       "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/dapps/color/Robonomics.svg",
-      "url": "https://dapp.robonomics.network/#/staking/",
+      "url": "https://dapp.robonomics.network/#/",
       "categories": [
-        "staking"
+        "utilities"
       ]
     },
     {
@@ -752,6 +751,15 @@
       "url": "https://app.giantprotocol.org/shop",
       "categories": [
         "utilities"
+      ]
+    },
+    {
+      "name": "Pendulum Chain Portal",
+      "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/PEN.svg",
+      "url": "https://portal.pendulumchain.org/pendulum/dashboard",
+      "categories": [
+        "utilities",
+        "staking"
       ]
     }
   ]
