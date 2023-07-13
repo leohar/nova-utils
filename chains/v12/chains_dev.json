@@ -8265,9 +8265,8 @@
             },
             {
                 "assetId": 11,
-                "symbol": "qiBTCS",
+                "symbol": "qiBTC",
                 "precision": 8,
-                "priceId": "bitcoin",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/interBTC.svg",
                 "type": "orml",
                 "typeExtras": {
