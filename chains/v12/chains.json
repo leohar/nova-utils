@@ -3567,7 +3567,7 @@
             },
             {
                 "assetId": 6,
-                "symbol": "KSM-kBTC",
+                "symbol": "LP KSM-kBTC",
                 "precision": 18,
                 "type": "orml",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/KSM-KBTC.svg",
@@ -3580,7 +3580,7 @@
             },
             {
                 "assetId": 7,
-                "symbol": "kBTC-USDT",
+                "symbol": "LP kBTC-USDT",
                 "precision": 18,
                 "type": "orml",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/KBTC-USDT.svg",
@@ -3593,12 +3593,51 @@
             },
             {
                 "assetId": 8,
-                "symbol": "KSM-KINT",
+                "symbol": "LP KSM-KINT",
                 "precision": 18,
                 "type": "orml",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/KSM-KINT.svg",
                 "typeExtras": {
                     "currencyIdScale": "0x03000a000c",
+                    "currencyIdType": "interbtc_primitives.CurrencyId",
+                    "existentialDeposit": "0",
+                    "transfersEnabled": false
+                }
+            },
+            {
+                "assetId": 9,
+                "symbol": "qkBTC",
+                "precision": 8,
+                "type": "orml",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/KBTC.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x0201000000",
+                    "currencyIdType": "interbtc_primitives.CurrencyId",
+                    "existentialDeposit": "0",
+                    "transfersEnabled": false
+                }
+            },
+            {
+                "assetId": 10,
+                "symbol": "qKSM",
+                "precision": 12,
+                "type": "orml",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kusama.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x0202000000",
+                    "currencyIdType": "interbtc_primitives.CurrencyId",
+                    "existentialDeposit": "0",
+                    "transfersEnabled": false
+                }
+            },
+            {
+                "assetId": 11,
+                "symbol": "qUSDT",
+                "precision": 6,
+                "type": "orml",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/USDT.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x0203000000",
                     "currencyIdType": "interbtc_primitives.CurrencyId",
                     "existentialDeposit": "0",
                     "transfersEnabled": false
@@ -4429,6 +4468,84 @@
                     "existentialDeposit": "0",
                     "transfersEnabled": true
                 }
+            },
+            {
+                "assetId": 8,
+                "symbol": "LP iBTC-USDT",
+                "precision": 18,
+                "type": "orml",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/iBTC-USDT.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x0300010102000000",
+                    "currencyIdType": "interbtc_primitives.CurrencyId",
+                    "existentialDeposit": "0",
+                    "transfersEnabled": false
+                }
+            },
+            {
+                "assetId": 9,
+                "symbol": "LP DOT-iBTC",
+                "precision": 18,
+                "type": "orml",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/DOT-iBTC.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x0300000001",
+                    "currencyIdType": "interbtc_primitives.CurrencyId",
+                    "existentialDeposit": "0",
+                    "transfersEnabled": false
+                }
+            },
+            {
+                "assetId": 10,
+                "symbol": "LP INTR-USDT",
+                "precision": 18,
+                "type": "orml",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/INTR-USDT.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x0300020102000000",
+                    "currencyIdType": "interbtc_primitives.CurrencyId",
+                    "existentialDeposit": "0",
+                    "transfersEnabled": false
+                }
+            },
+            {
+                "assetId": 11,
+                "symbol": "qiBTC",
+                "precision": 8,
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/interBTC.svg",
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x0201000000",
+                    "currencyIdType": "interbtc_primitives.CurrencyId",
+                    "existentialDeposit": "0",
+                    "transfersEnabled": false
+                }
+            },
+            {
+                "assetId": 12,
+                "symbol": "qUSDT",
+                "precision": 6,
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/USDT.svg",
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x0203000000",
+                    "currencyIdType": "interbtc_primitives.CurrencyId",
+                    "existentialDeposit": "0",
+                    "transfersEnabled": false
+                }
+            },
+            {
+                "assetId": 13,
+                "symbol": "qDOT",
+                "precision": 10,
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x0202000000",
+                    "currencyIdType": "interbtc_primitives.CurrencyId",
+                    "existentialDeposit": "0",
+                    "transfersEnabled": false
+                }
             }
         ],
         "nodes": [
@@ -4949,6 +5066,17 @@
                 "symbol": "OTP",
                 "precision": 12,
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/OriginTrail.svg"
+            },
+            {
+                "assetId": 1,
+                "symbol": "TRAC",
+                "precision": 18,
+                "priceId": "origintrail",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/TRAC.svg",
+                "typeExtras": {
+                    "assetId": "1"
+                }
             }
         ],
         "nodes": [
@@ -5185,7 +5313,7 @@
     {
         "chainId": "577d331ca43646f547cdaa07ad0aa387a383a93416764480665103081f3eaf14",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-        "name": "Dora Factory",
+        "name": "Dora Factory (PAUSED)",
         "assets": [
             {
                 "assetId": 0,
@@ -5384,7 +5512,7 @@
     {
         "chainId": "feb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-        "name": "Kabocha (PAUSED)",
+        "name": "Kabocha",
         "assets": [
             {
                 "assetId": 0,
@@ -5553,7 +5681,7 @@
     {
         "chainId": "19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-        "name": "GM",
+        "name": "GM (PAUSED)",
         "assets": [
             {
                 "assetId": 0,
