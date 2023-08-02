@@ -2231,10 +2231,6 @@
             {
                 "url": "wss://fullnode.altair.centrifuge.io",
                 "name": "Centrifuge"
-            },
-            {
-                "url": "wss://altair.api.onfinality.io/public-ws",
-                "name": "OnFinality node"
             }
         ],
         "types": {
@@ -8360,10 +8356,6 @@
         ],
         "nodes": [
             {
-                "url": "wss://fullnode.altair.centrifuge.io",
-                "name": "Centrifuge"
-            },
-            {
                 "url": "wss://altair.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
             }
@@ -8430,8 +8422,7 @@
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Astar.svg",
         "addressPrefix": 5,
         "options": [
-            "ethereumBased",
-            "noSubstrateRuntime"
+            "ethereumBased"
         ]
     }
 ]
