@@ -3614,10 +3614,6 @@
                 "name": "Astar node"
             },
             {
-                "url": "wss://astar.api.onfinality.io/public-ws",
-                "name": "OnFinality node"
-            },
-            {
                 "url": "wss://astar-rpc.dwellir.com",
                 "name": "Dwellir node"
             }
@@ -8402,10 +8398,6 @@
             {
                 "url": "https://1rpc.io/astr",
                 "name": "Astar node"
-            },
-            {
-                "url": "wss://astar-rpc.dwellir.com",
-                "name": "Dwellir node"
             },
             {
                 "url": "wss://astar.api.onfinality.io/public-ws",
