@@ -9047,7 +9047,7 @@
             "history": [
                 {
                     "type": "etherscan",
-                    "url": "https://volta-explorer.energyweb.org/api",
+                    "url": "https://volta-explorer.energyweb.org/api/eth-rpc",
                     "parameters": {
                         "assetType": "evm"
                     }
@@ -9105,7 +9105,7 @@
             "history": [
                 {
                     "type": "etherscan",
-                    "url": "https://explorer.energyweb.org/api",
+                    "url": "https://explorer.energyweb.org/api/eth-rpc",
                     "parameters": {
                         "assetType": "evm"
                     }
