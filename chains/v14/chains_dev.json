@@ -4852,10 +4852,6 @@
             {
                 "url": "wss://centrifuge-parachain.api.onfinality.io/public-ws",
                 "name": "Onfinality node"
-            },
-            {
-                "url": "wss://fullnode.parachain.centrifuge.io",
-                "name": "Centrifuge node"
             }
         ],
         "explorers": [
@@ -9189,12 +9185,53 @@
                 "account": "https://astar.subscan.io/account/{address}"
             }
         ],
-        "types": {
-            "url": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/chains/v2/types/astar.json",
-            "overridesCommon": true
+        "externalApi": {
+            "history": [
+                {
+                    "type": "etherscan",
+                    "url": "https://blockscout.com/astar/api",
+                    "parameters": {
+                        "assetType": "evm"
+                    }
+                }
+            ]
         },
         "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
         "addressPrefix": 592,
+        "options": [
+            "ethereumBased",
+            "noSubstrateRuntime"
+        ]
+    },
+    {
+        "chainId": "eip155:2031",
+        "name": "Centrifuge EVM",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "CFG",
+                "priceId": "centrifuge",
+                "type": "evmNative",
+                "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master//icons/chains/white/Centrifuge.svg",
+                "precision": 18
+            }
+        ],
+        "nodeSelectionStrategy": "uniform",
+        "nodes": [
+            {
+                "url": "wss://fullnode.parachain.centrifuge.io",
+                "name": "Fullnode node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://centrifuge.subscan.io/extrinsic/{hash}",
+                "account": "https://centrifuge.subscan.io/account/{address}"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
+        "addressPrefix": 2031,
         "options": [
             "ethereumBased",
             "noSubstrateRuntime"
