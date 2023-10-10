@@ -9211,7 +9211,7 @@
             "history": [
                 {
                     "type": "subquery",
-                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-moonriver"
+                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-astar"
                 },
                 {
                     "type": "etherscan",
