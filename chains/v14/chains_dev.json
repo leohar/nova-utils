@@ -9207,6 +9207,21 @@
                 "account": "https://astar.subscan.io/account/{address}"
             }
         ],
+        "externalApi": {
+            "history": [
+                {
+                    "type": "subquery",
+                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-moonriver"
+                },
+                {
+                    "type": "etherscan",
+                    "url": "https://blockscout.com/astar/api",
+                    "parameters": {
+                        "assetType": "evm"
+                    }
+                }
+            ]
+        },
         "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Astar.svg",
         "addressPrefix": 592,
         "options": [
