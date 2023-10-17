@@ -19,8 +19,7 @@
                     },
                     "mercuryo": {},
                     "banxa": {
-                        "coinType": "DOT",
-                        "blockchain": "POLKADOT"
+                        "coinType": "DOT"
                     }
                 }
             }
