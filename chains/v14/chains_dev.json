@@ -8165,7 +8165,7 @@
         ],
         "nodes": [
             {
-                "url": "wss://polygon-mainnet.public.blastapi.io",
+                "url": "wss://polygon-bor.publicnode.com",
                 "name": "wss node"
             },
             {
