@@ -8166,7 +8166,15 @@
         "nodes": [
             {
                 "url": "wss://polygon-mainnet.public.blastapi.io",
-                "name": "Polygon node"
+                "name": "wss node"
+            },
+            {
+                "url": "https://polygon.llamarpc.com",
+                "name": "Lllamarpc node"
+            },
+            {
+                "url": "https://polygon-bor.publicnode.com",
+                "name": "Bor node"
             }
         ],
         "explorers": [
