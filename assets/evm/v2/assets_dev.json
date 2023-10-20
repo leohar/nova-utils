@@ -29,6 +29,14 @@
                         "blockchain": "ETH"
                     }
                 }
+            },            {
+                "chainId": "eip155:137",
+                "contractAddress": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+                "buyProviders": {
+                    "transak": {
+                        "network": "polygon"
+                    }
+                }
             }
         ]
     },
