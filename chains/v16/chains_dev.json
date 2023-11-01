@@ -350,7 +350,7 @@
                 "symbol": "WND",
                 "precision": 12,
                 "priceId": "polkadot",
-                "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/white/Westend.svg"
+                "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/white/Westend.svg",
                 "buyProviders": {
                     "banxa": {
                         "coinType": "WND",
