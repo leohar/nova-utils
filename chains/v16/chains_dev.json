@@ -349,12 +349,14 @@
                 "assetId": 0,
                 "symbol": "WND",
                 "precision": 12,
+                "priceId": "polkadot",
                 "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/white/Westend.svg"
             },
             {
                 "assetId": 1,
                 "symbol": "SIRI",
                 "precision": 10,
+                "priceId": "tether",
                 "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/tokens/white/Default.svg",
                 "type": "statemine",
                 "typeExtras": {
