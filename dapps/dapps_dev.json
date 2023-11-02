@@ -116,7 +116,7 @@
     },
     {
       "name": "KodaDot",
-      "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/dapps/color/KodaDot.svg",
+      "icon": "https://raw.githubusercontent.com/leohar/nova-utils/master/icons/dapps/color/KodaDot.svg",
       "url": "https://kodadot.xyz/",
       "categories": [
         "nft"
