@@ -117,8 +117,7 @@
         "options": [
             "crowdloans",
             "governance-v1",
-            "governance",
-            "swap-hub"
+            "governance"
         ],
         "additional": {
             "themeColor": "#E6007A",
