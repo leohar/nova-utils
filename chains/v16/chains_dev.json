@@ -117,7 +117,8 @@
         "options": [
             "crowdloans",
             "governance-v1",
-            "governance"
+            "governance",
+            "swap-hub"
         ],
         "additional": {
             "themeColor": "#E6007A",
@@ -549,9 +550,6 @@
         },
         "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
         "addressPrefix": 2,
-        "options": [
-            "swap-hub"
-        ],
         "additional": {
             "relaychainAsNative": true
         }
