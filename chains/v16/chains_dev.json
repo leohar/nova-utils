@@ -122,7 +122,7 @@
         "additional": {
             "themeColor": "#E6007A",
             "stakingWiki": "https://docs.novawallet.io/nova-wallet-wiki/staking/polkadot-dot-staking",
-            "stakingMaxElectingVoters": 22500
+            "stakingMaxElectingVoters": 21500
         }
     },
     {
@@ -251,7 +251,7 @@
         "additional": {
             "themeColor": "#1F78FF",
             "stakingWiki": "https://docs.novawallet.io/nova-wallet-wiki/staking/kusama-ksm-staking",
-            "stakingMaxElectingVoters": 12500
+            "stakingMaxElectingVoters": 12400
         }
     },
     {
@@ -341,8 +341,7 @@
         "additional": {
             "themeColor": "#1F78FF",
             "stakingWiki": "https://docs.novawallet.io/nova-wallet-wiki/staking/polkadot-and-kusama",
-            "stakingMaxElectingVoters": 22500,
-            "MaxNominations": 2
+            "stakingMaxElectingVoters": 22500
         }
     },
     {
