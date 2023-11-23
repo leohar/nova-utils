@@ -341,8 +341,7 @@
         "additional": {
             "themeColor": "#1F78FF",
             "stakingWiki": "https://docs.novawallet.io/nova-wallet-wiki/staking/polkadot-and-kusama",
-            "stakingMaxElectingVoters": 22500,
-            "MaxNominations": 2
+            "stakingMaxElectingVoters": 22500
         }
     },
     {
