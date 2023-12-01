@@ -6415,7 +6415,7 @@
                 "fee": {
                   "mode": {
                     "type": "proportional",
-                    "value": "788380228137"
+                    "value": "9691150827"
                   },
                   "instructions": "xtokensDest"
                 }
