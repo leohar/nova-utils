@@ -8629,10 +8629,10 @@
                     "type": "proportional",
                     "value": "8800000000000"
                   },
-                  "instructions": "xcmPalletDest"
+                  "instructions": "xtokensDest"
                 }
               },
-              "type": "xcmpallet"
+              "type": "xtokens"
             }
           ]
         }
