@@ -8617,7 +8617,7 @@
           "assetId": 0,
           "assetLocation": "SUB",
           "assetLocationPath": {
-            "type": "relative"
+            "type": "absolut"
           },
           "xcmTransfers": [
             {
