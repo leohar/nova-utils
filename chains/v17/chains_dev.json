@@ -109,7 +109,8 @@
         "options": [
             "crowdloans",
             "governance",
-            "proxy"
+            "proxy",
+            "fullSyncByDefault"
         ],
         "additional": {
             "themeColor": "#E6007A",
@@ -3637,7 +3638,8 @@
         "options": [
             "ethereumBased",
             "governance",
-            "governance-v1"
+            "governance-v1",
+            "fullSyncByDefault"
         ],
         "additional": {
             "themeColor": "#10B6B1",
