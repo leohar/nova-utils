@@ -27,7 +27,7 @@
         ],
         "nodes": [
             {
-                "url": "wss://api-polkadot-full.dwellir.com/{DWELLIR_API_KEY}",
+                "url": "wss://api-polkadot-full.dwellir.com/{MY_API_KEY}",
                 "name": "Nova Dwellir node"
             },
             {
