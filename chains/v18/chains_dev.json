@@ -386,12 +386,8 @@
         ],
         "nodes": [
             {
-                "url": "wss://westmint-rpc.dwellir.com",
+                "url": "wss://westmint-rpc.dwellir.ru",
                 "name": "Dwellir node"
-            },
-            {
-                "url": "wss://wnd-rpc.stakeworld.io/assethub",
-                "name": "Stakeworld node"
             }
         ],
         "explorers": [
