@@ -1,5 +1,5 @@
 {
-    "chainId": "0xe7eafa72eb58d1fdd906202f88d68f660ea6520bdc9c9ad08d6ebf91d14b4405",
+    "chainId": "e7eafa72eb58d1fdd906202f88d68f660ea6520bdc9c9ad08d6ebf91d14b4405",
     "name": "Encointer Gesell",
     "assets": [
         {
@@ -15,6 +15,5 @@
             "name": "Encointer Association"
         }
     ],
-    "addressPrefix": 42,
-    "options": []
+    "addressPrefix": 42
 }
