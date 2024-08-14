@@ -15,5 +15,6 @@
             "name": "Encointer Association"
         }
     ],
-    "addressPrefix": 42
+    "addressPrefix": 42,
+    "options": []
 }

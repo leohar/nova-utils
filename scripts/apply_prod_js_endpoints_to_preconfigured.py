@@ -179,6 +179,7 @@ def add_chain_to_chains_file(chain):
     chain_id_exists = any(item.get("chainId") == chain_data["chainId"] for item in data)
 
     if not chain_id_exists:
+
         data.append(chain_data)
         print(f"Added new chain data: {chain_data}")
     else:
