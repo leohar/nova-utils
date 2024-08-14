@@ -7,5 +7,65 @@
     {
         "chainId": "01f15f9d48ea279640cb35267bfd33a88bb4c21ebb00b129e9bc2d2236aaafdb",
         "name": "SoonSocial"
+    },
+    {
+        "chainId": "0614f7b74a2e47f7c8d8e2a5335be84bdde9402a43f5decdec03200a87c8b943",
+        "name": "Analog Testnet"
+    },
+    {
+        "chainId": "b90d85934bfb24c3dda047c1e46eba140b4f18fd5c2810f763dd2d6be8047370",
+        "name": "Beresheet (Edgeware)"
+    },
+    {
+        "chainId": "15b34a3b7443c73fa1f687cce2d8e5981f6a2eaad54809a6b6af28e83d2adaff",
+        "name": "Bifrost Testnet"
+    },
+    {
+        "chainId": "7a5d4db858ada1d20ed6ded4933c33313fc9673e5fffab560d0ca714782f2080",
+        "name": "Chainflip Testnet"
+    },
+    {
+        "chainId": "c2e43792c8acc075e564558f9a2184a0ffe9b0fd573969599eee9b647358c6cf",
+        "name": "Creditcoin Classic Testnet"
+    },
+    {
+        "chainId": "fc4ec97a1c1f119c4353aecb4a17c7c0cf7b40d5d660143d8bad9117e9866572",
+        "name": "Creditcoin Testnet"
+    },
+    {
+        "chainId": "27aafd88e5921f5d5c6aebcd728dacbbf5c2a37f63e2eda301f8e0def01c43ea",
+        "name": "Dancebox"
+    },
+    {
+        "chainId": "e7eafa72eb58d1fdd906202f88d68f660ea6520bdc9c9ad08d6ebf91d14b4405",
+        "name": "Encointer Gesell"
+    },
+    {
+        "chainId": "7e18728b3f890088891d03dd5b30db9f1a0e62e05bc30eb4cf53f3c4a8280d76",
+        "name": "Harmonie Testnet"
+    },
+    {
+        "chainId": "266ad38196ddff7636206f911f0658cc76e3e906e349cb83475d93ebe80d03b5",
+        "name": "Interlay Testnet"
+    },
+    {
+        "chainId": "0446ab8b4c86695018b791cd3cc4481c791f56ef2b4003197568941b5a8d2f9a",
+        "name": "Jur Testnet"
+    },
+    {
+        "chainId": "e3a1cf3db108e3e45c63a4841fe89ba95108b1db14fdec10c2e8a078ff322a67",
+        "name": "Kintsugi Testnet"
+    },
+    {
+        "chainId": "131a8f81116a6ee880aa5f84b16115499a50f5f8dccfed80d87e204ec9203f3c",
+        "name": "Liberland testnet"
+    },
+    {
+        "chainId": "87ac53add0e7b7cd6cac65a1fc42284ec3a98246c1daaac535805e80216199e8",
+        "name": "Logion Testnet"
+    },
+    {
+        "chainId": "c87870ef90a438d574b8e320f17db372c50f62beb52e479c8ff6ee5b460670b9",
+        "name": "OPAL by UNIQUE"
     }
 ]
