@@ -1,0 +1,19 @@
+{
+    "chainId": "8685a8d3e57fa8024b91b8ead6cc97acf953889c6fb0a355602826a1e2db198f",
+    "name": "SORA Rococo",
+    "assets": [
+        {
+            "assetId": 0,
+            "symbol": "XOR",
+            "precision": 18,
+            "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/white/Polkadot.svg"
+        }
+    ],
+    "nodes": [
+        {
+            "url": "wss://ws.parachain-collator-1.c1.stg1.sora2.soramitsu.co.jp",
+            "name": "Soramitsu"
+        }
+    ],
+    "addressPrefix": 420
+}

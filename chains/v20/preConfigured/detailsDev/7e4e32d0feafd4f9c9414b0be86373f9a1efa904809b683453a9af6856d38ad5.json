@@ -1,0 +1,31 @@
+{
+    "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+    "name": "SORA",
+    "assets": [
+        {
+            "assetId": 0,
+            "symbol": "XOR",
+            "precision": 18,
+            "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/white/Polkadot.svg"
+        }
+    ],
+    "nodes": [
+        {
+            "url": "wss://sora.api.onfinality.io/public-ws",
+            "name": "OnFinality"
+        },
+        {
+            "url": "wss://ws.mof.sora.org",
+            "name": "SORA Parliament Ministry of Finance"
+        },
+        {
+            "url": "wss://mof2.sora.org",
+            "name": "SORA Parliament Ministry of Finance #2"
+        },
+        {
+            "url": "wss://mof3.sora.org",
+            "name": "SORA Parliament Ministry of Finance #3"
+        }
+    ],
+    "addressPrefix": 69
+}

@@ -1,0 +1,19 @@
+{
+    "chainId": "71f8b9cbf29a8c5b79cfa040e1fe57ee66f8afd5598afa02a3192670d980d1f3",
+    "name": "RILT Peregrine",
+    "assets": [
+        {
+            "assetId": 0,
+            "symbol": "RILT",
+            "precision": 15,
+            "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/white/Polkadot.svg"
+        }
+    ],
+    "nodes": [
+        {
+            "url": "wss://rilt.kilt.io",
+            "name": "BOTLabs"
+        }
+    ],
+    "addressPrefix": 38
+}

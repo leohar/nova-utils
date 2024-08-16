@@ -1,0 +1,31 @@
+{
+    "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
+    "name": "SORA-staging Testnet",
+    "assets": [
+        {
+            "assetId": 0,
+            "symbol": "XOR",
+            "precision": 18,
+            "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/white/Polkadot.svg"
+        }
+    ],
+    "nodes": [
+        {
+            "url": "wss://ws.framenode-1.s1.stg1.sora2.soramitsu.co.jp",
+            "name": "Soramitsu #1"
+        },
+        {
+            "url": "wss://ws.framenode-2.s1.stg1.sora2.soramitsu.co.jp",
+            "name": "Soramitsu #2"
+        },
+        {
+            "url": "wss://ws.framenode-3.s2.stg1.sora2.soramitsu.co.jp",
+            "name": "Soramitsu #3"
+        },
+        {
+            "url": "wss://ws.framenode-4.s2.stg1.sora2.soramitsu.co.jp",
+            "name": "Soramitsu #4"
+        }
+    ],
+    "addressPrefix": 69
+}
