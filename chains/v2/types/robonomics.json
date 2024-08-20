@@ -23,8 +23,8 @@
           "frame_support.weights.DispatchClass"
         ],
         [
-          "pays_fee",
-          "frame_support.weights.Pays"
+          "partialFee",
+          "Balance"
         ]
       ]
     }
