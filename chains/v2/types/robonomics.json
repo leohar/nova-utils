@@ -16,7 +16,7 @@
       "type_mapping": [
         [
           "weight",
-          ""
+          []
         ],
         [
           "class",
@@ -24,7 +24,7 @@
         ],
         [
           "partialFee",
-          "frame_support.weights.Pays"
+          "Balance"
         ]
       ]
     }
