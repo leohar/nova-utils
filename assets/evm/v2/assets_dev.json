@@ -96,23 +96,10 @@
             {
                 "chainId": "eip155:1",
                 "contractAddress": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
-            }
-        ]
-    },
-    {
-        "symbol": "MATIC",
-        "precision": 18,
-        "name": "Matic",
-        "priceId": "matic-network",
-        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/tokens/white/MATIC.svg",
-        "instances": [
-            {
-                "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                "contractAddress": "0x3405A1bd46B85c5C029483FbECf2F3E611026e45"
             },
             {
-                "chainId": "eip155:1",
-                "contractAddress": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+                "chainId": "eip155:56",
+                "contractAddress": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD"
             }
         ]
     },
