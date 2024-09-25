@@ -2746,6 +2746,15 @@
                     "type": "polkassembly",
                     "url": "https://kilt-hasura.herokuapp.com/v1/graphql"
                 }
+            ],
+            "referendum-summary": [
+                {
+                    "type": "polkassembly",
+                    "url": "https://kilt.polkassembly.io/api/v1/posts/summary",
+                    "parameters": {
+                        "network": "kilt"
+                    }
+                }
             ]
         },
         "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
