@@ -246,6 +246,15 @@
                     "type": "subquery",
                     "url": "https://subquery-governance-kusama-prod.novasama-tech.org"
                 }
+            ],
+            "referendum-summary": [
+                {
+                    "type": "polkassembly",
+                    "url": "https://kusama.polkassembly.io/api/v1/posts/summary",
+                    "parameters": {
+                        "network": "kusama"
+                    }
+                }
             ]
         },
         "options": [
