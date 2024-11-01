@@ -4391,7 +4391,7 @@
                 }
             ]
         },
-        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Parallel.svg",
+        "icon": "https://raw.githubusercontent.com/leohar/nova-utils/master/icons/chains/gradient/Parallel.svg",
         "addressPrefix": 172,
         "options": [
             "governance-v1"
@@ -4431,7 +4431,7 @@
                 }
             ]
         },
-        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/CLV_Parachain.svg",
+        "icon": "https://raw.githubusercontent.com/leohar/nova-utils/master/icons/chains/gradient/CLV_Parachain.svg",
         "addressPrefix": 128
     },
     {
@@ -6916,7 +6916,7 @@
                 }
             ]
         },
-        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
+        "icon": "https://raw.githubusercontent.com/leohar/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
         "addressPrefix": 0,
         "options": [
             "governance-v1"
@@ -8764,7 +8764,7 @@
                 }
             ]
         },
-        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
+        "icon": "https://raw.githubusercontent.com/leohar/nova-utils/master/icons/chains/gradient/Ajuna.svg",
         "addressPrefix": 1328,
         "additional": {
             "supportsGenericLedgerApp": true
