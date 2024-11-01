@@ -498,7 +498,7 @@
     },
     {
       "name": "Moonsama",
-      "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/dapps/color/Moonsama.svg",
+      "icon": "https://raw.githubusercontent.com/leohar/nova-utils/master/icons/dapps/color/Moonsama.svg",
       "url": "https://marketplace.moonsama.com/",
       "categories": [
         "nft",
