@@ -10151,7 +10151,7 @@
                 "account": "https://dock.subscan.io/account/{address}"
             }
         ],
-        "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Dock.svg",
+        "icon": "https://raw.githubusercontent.com/leohar/nova-utils/master/icons/chains/gradient/Dock.svg",
         "addressPrefix": 22
     },
     {
