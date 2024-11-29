@@ -11754,6 +11754,10 @@
         "addressPrefix": 5589,
         "additional": {
             "feeViaRuntimeCall": true
-        }
+        },
+        "types": {
+            "url": "https://raw.githubusercontent.com/leohar/nova-utils/master/chains/v2/types/jamton.json",
+            "overridesCommon": true
+        },
     },
 ]
