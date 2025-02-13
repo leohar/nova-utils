@@ -16,8 +16,5 @@
             "name": "5ire Mainnet Node"
         }
     ],
-    "addressPrefix": 42,
-    "options": [
-        "ethereumBased"
-    ]
+    "addressPrefix": 42
 }
