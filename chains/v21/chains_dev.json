@@ -11638,24 +11638,18 @@
         "addressPrefix": 5234
     },
     {
-        "chainId": "eip155:5234",
+        "chainId": "c56fa32442b2dad76f214b3ae07998e4ca09736e4813724bfb0717caae2c8bee",
         "name": "Humanode EVM",
         "assets": [
             {
                 "assetId": 0,
                 "symbol": "eHMND",
                 "priceId": "humanode",
-                "type": "evmNative",
                 "icon": "HMND.svg",
                 "precision": 18
             }
         ],
-        "nodeSelectionStrategy": "uniform",
         "nodes": [
-            {
-                "url": "https://explorer-rpc-http.mainnet.stages.humanode.io?nova=evm",
-                "name": "http node"
-            },
             {
                 "url": "wss://explorer-rpc-http.mainnet.stages.humanode.io?nova=evm",
                 "name": "wss node "
@@ -11668,22 +11662,10 @@
                 "account": "https://humanode.subscan.io/account/{address}"
             }
         ],
-        "externalApi": {
-            "history": [
-                {
-                    "type": "etherscan",
-                    "url": "https://humanode.api.subscan.io",
-                    "parameters": {
-                        "assetType": "evm"
-                    }
-                }
-            ]
-        },
         "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Humanode.svg",
         "addressPrefix": 5234,
         "options": [
-            "ethereumBased",
-            "noSubstrateRuntime"
+            "ethereumBased"
         ]
     },
     {
