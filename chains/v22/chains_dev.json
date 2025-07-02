@@ -11129,13 +11129,13 @@
             "staking": [
                 {
                     "type": "subquery",
-                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-avail"
+                    "url": "https://subquery-history-avail-prod.novasama-tech.org"
                 }
             ],
             "history": [
                 {
                     "type": "subquery",
-                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-avail"
+                    "url": "https://subquery-history-avail-prod.novasama-tech.org"
                 }
             ]
         },
