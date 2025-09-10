@@ -12130,6 +12130,10 @@
         "addressPrefix": 280,
         "additional": {
             "supportsGenericLedgerApp": true
+        },
+        "types": {
+            "url": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/chains/v2/types/xode_polkadot.json",
+            "overridesCommon": true
         }
     }
 ]
