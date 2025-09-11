@@ -23,7 +23,7 @@
           "frame_support.dispatch.DispatchClass"
         ],
         [
-          "pays_fee",
+          "partialFee",
           "frame_support.dispatch.Pays"
         ]
       ]
