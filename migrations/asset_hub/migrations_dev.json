@@ -12,7 +12,7 @@
         "minBalance": "3333333",
         "averageFee": "90000000"
     },
-    "blockNumber": 30423691,
+    "blockNumber": 30400000,
     "timestamp": 1759795200,
     "newTokenNames": [
         "USDT",
